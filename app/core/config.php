@@ -3,7 +3,7 @@
 if($_SERVER['SERVER_NAME'] == "localhost")
 {
 	//for local server
-	define("ROOT", "http://localhost/indoorGolfDir");
+	define("ROOT", "http://localhost/indoorgolfdirgit");
 
 	define("DBDRIVER", "mysql");
 	define("DBHOST", "localhost");
