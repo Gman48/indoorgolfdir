@@ -65,7 +65,9 @@ if(isset($_GET['region_id'])) {
 
         <div class="listings-grid-col2">
             <div class="right-sidebar">
-                <div class="ad-grid-item">Add space</div>
+                <div class="ad-grid-item">
+                    <img class="listings-img" src="/assets/images/Albatross2.jpg" alt="add space">
+                </div>
                 <div class="ad-grid-item">Second Add space</div>
                 <div class="ad-grid-item">Third Add space</div>
             </div>
