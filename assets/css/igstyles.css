@@ -40,7 +40,7 @@ html {
 body {
     /* background: var(--color-page-bg); */
     background-color: rgb(196, 213, 196);
-    background-image: url('http://localhost/indoorGolfDir/assets/images/Backspins3png.png');
+    background-image: url('http://www.indoorgolfdir.com/assets/images/Backspins3png.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -248,7 +248,7 @@ a {
 #hero-bg {
     min-height: calc(100vh - 60px - 60px);
     background-color: rgb(159, 183, 159);
-    background-image: url('http://localhost/indoorGolfDir/assets/images/heroimg1.jpg');
+    background-image: url('http://www.indoorgolfdir.com/assets/images/heroimg1.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -363,7 +363,7 @@ select#usStates {
 /* ===== State Pages ===== */
 #hero-bg.hero-bg-state {
     min-height: calc(100vh - 60px - 60px);
-    background: /*linear-gradient(rgba(2, 157, 157, 0.8),rgba(2, 157, 157, 0.8)), */url('http://localhost/indoorGolfDir/assets/images/sim1.jpg') no-repeat center / cover;
+    background: /*linear-gradient(rgba(2, 157, 157, 0.8),rgba(2, 157, 157, 0.8)), */url('http://www.indoorgolfdir.com/assets/images/sim1.jpg') no-repeat center / cover;
     width: 100%;
     min-height: 80vh;
     background-size: cover;
@@ -519,7 +519,7 @@ select#usStates {
 #toronto-bg {
     min-height: calc(100vh - 60px - 60px);
     background-color: rgb(160, 174, 160);
-    background-image: url('http://localhost/indoorGolfDir/assets/images/toronto.jpg');
+    background-image: url('http://www.indoorgolfdir.com/assets/images/toronto.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -530,7 +530,7 @@ select#usStates {
 #gtanorth-bg {
     min-height: calc(100vh - 60px - 60px);
     background-color: rgb(160, 174, 160);
-    background-image: url('http://localhost/indoorGolfDir/assets/images/sim3.jpeg');
+    background-image: url('http://www.indoorgolfdir.com/assets/images/sim3.jpeg');
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -540,7 +540,7 @@ select#usStates {
 }
 #gta-west-bg {
     min-height: calc(100vh - 60px - 60px);
-    background: linear-gradient(rgba(228, 245, 230, 0.6),rgba(228, 245, 230, 0.6)), url('http://localhost/indoorGolfDir/assets/images/course.jpg') no-repeat center / cover;
+    background: linear-gradient(rgba(228, 245, 230, 0.6),rgba(228, 245, 230, 0.6)), url('http://www.indoorgolfdir.com/assets/images/course.jpg') no-repeat center / cover;
     width: 100%;
     min-height: 80vh;
     background-size: cover;
