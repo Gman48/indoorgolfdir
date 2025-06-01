@@ -1,11 +1,11 @@
 <?php
 // check if person trying to access the page is an admin
 
-/*if(!is_admin())
+if(!is_admin())
 {
     message("only admins can access the admin area");
     redirect('login');
-}*/
+}
 // if person is admin then carry on
 
 //store details of page user wanted from url entered or page they are on
