@@ -68,7 +68,7 @@ h2 {
 }
 p {
     color: var(--text-blk);
-    line-height: 3rem;
+    /* line-height: 3em; */
     font-size: clamp(1.8rem, 4vw + 0.5rem, 2.25rem);
 }
 .td-none {
@@ -102,6 +102,7 @@ hr {
     margin: 1rem auto;
     padding: 0 2rem;
     border: 5px solid rgb(224, 39, 193);
+    text-wrap: balance;
 }
 
 .logo-sm {
@@ -255,33 +256,31 @@ a {
     background-blend-mode: multiply;
     width: 100%;
     min-height: 80vh;
-    padding: 3rem 5rem;
+    padding: 3.5em 3em;
     border: 3px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-wrap: balance;
-    gap: 2rem;
+    gap: 2em;
 }
-.hero {
+/* .hero {
     display: flex;
     flex-direction: column;
     border: 2px solid red;
-} 
+}  */
 .headline {
-    font-size: clamp(6rem, 9vw, 11rem);
-    /* margin-top: .125em; */
+    font-size: clamp(4rem, 9vw, 11rem);
     color: green;
     font-weight: 800;
     text-align: center;
     text-transform: capitalize;
     -webkit-text-stroke: 2px rgb(205, 201, 201);
-    margin-bottom: 4rem;
+    padding-bottom: .3em;
 }
 .sub-text {
-    font-size: clamp(2.5rem, 3vw, 3.5rem);
-    padding-left: 5rem;
-    padding-right: 5rem;
+    font-size: clamp(1rem, 3vw, 3.5rem);
+    padding: .3em 3em;
     color: var(--color-page-bg);
     text-align: center;
     font-weight: 500;
@@ -289,15 +288,21 @@ a {
 .sub-text-blk {
     color: black;
     font-weight: 500;
-    width: 70%;
+    /* width: 70%; */
     margin: 0 auto;
     -webkit-text-stroke: .5rem rgba(89, 116, 91, 0.266);
 }
 
 /* ===== Home Page ===== */
+.intro {
+    font-size: clamp(1rem, 3vw, 3rem);
+    padding: 1.5em 2em .5em 2em;
+    /* line-height: 2rem; */
+    text-align: justify;
+}
 .headline-text {
-    font-size: clamp(3rem, 7vw + 1rem, 5rem);
-    margin-top: 3rem;
+    font-size: clamp(3rem, 5vw, 5rem);
+    margin: .5em auto;
     color: var(--text-blk);
     text-align: center;
 }
@@ -311,12 +316,6 @@ a {
     color: var(--text-blk);
     text-align: center;
 }
-.intro {
-    padding: 3rem 8rem;
-    line-height: 4rem;
-    text-align: justify;
-    font-size: 2.5rem;
-}
 .can {
     color: red;
 }
@@ -329,6 +328,7 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 3rem;
     margin-top: 1rem;
+    font-size: clamp(3rem, 5vw, 5rem);
 }
 .canada {
     border: 2px dashed red;
@@ -339,22 +339,20 @@ a {
     text-align: center;
 }
 .dropdown {
-    font-size: clamp(1rem, 7vw + 1rem, 2rem);
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 select#provinces {
-    font-size: 2rem;
     background-color: red;
     color: var(--text-white);
 }
 select#usStates {
-    font-size: 2rem;
     background-color: blue;
     color: var(--text-white);
 }
 .search-main {
     display: flex;
     gap: 3rem;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     justify-content: center;
     padding: 2rem;
 }
