@@ -68,7 +68,6 @@ h2 {
 }
 p {
     color: var(--text-blk);
-    /* line-height: 3em; */
     font-size: clamp(1.8rem, 4vw + 0.5rem, 2.25rem);
 }
 .td-none {
@@ -100,7 +99,7 @@ hr {
     width: 95%;
     max-width: 1200px;
     margin: 1rem auto;
-    padding: 0 2rem;
+    padding: 0 2em;
     border: 5px solid rgb(224, 39, 193);
     text-wrap: balance;
 }
@@ -256,7 +255,7 @@ a {
     background-blend-mode: multiply;
     width: 100%;
     min-height: 80vh;
-    padding: 3.5em 3em;
+    padding: 3.5em 0;
     border: 3px solid black;
     display: flex;
     flex-direction: column;
@@ -270,7 +269,7 @@ a {
     border: 2px solid red;
 }  */
 .headline {
-    font-size: clamp(4rem, 9vw, 11rem);
+    font-size: clamp(5rem, 9vw, 11rem);
     color: green;
     font-weight: 800;
     text-align: center;
@@ -279,8 +278,10 @@ a {
     padding-bottom: .3em;
 }
 .sub-text {
-    font-size: clamp(1rem, 3vw, 3.5rem);
-    padding: .3em 3em;
+    font-size: clamp(2rem, 3vw, 3.5rem);
+    padding: .3em 0;
+    margin: 0 auto;
+    width: 75%;
     color: var(--color-page-bg);
     text-align: center;
     font-weight: 500;
@@ -295,7 +296,7 @@ a {
 
 /* ===== Home Page ===== */
 .intro {
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 2.75rem);
     padding: 1.5em 2em .5em 2em;
     /* line-height: 2rem; */
     text-align: justify;
@@ -351,17 +352,21 @@ select#usStates {
 }
 .search-main {
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 3em;
     font-size: clamp(1rem, 2vw, 2rem);
-    justify-content: center;
-    padding: 2rem;
+    margin: 0 auto;
+    align-items: center;
+}
+.search-main span {
+    align-items: flex-start;
 }
 
 
 /* ===== State Pages ===== */
 #hero-bg.hero-bg-state {
     min-height: calc(100vh - 60px - 60px);
-    background: /*linear-gradient(rgba(2, 157, 157, 0.8),rgba(2, 157, 157, 0.8)), */url('http://www.indoorgolfdir.com/assets/images/sim1.jpg') no-repeat center / cover;
+    background: linear-gradient(rgba(85, 91, 91, 0.8),rgba(85, 91, 91, 0.8)),url('http://www.indoorgolfdir.com/assets/images/sim1.jpg') no-repeat center / cover;
     width: 100%;
     min-height: 80vh;
     background-size: cover;
@@ -375,50 +380,90 @@ select#usStates {
     text-align: center;
     text-transform: capitalize;
     /* -webkit-text-stroke: 2px rgb(205, 201, 201); */
-    margin-bottom: 4rem;
+    margin-bottom: .3em;
 }
 .region-btns {
     display: flex;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: .2em;
     flex-wrap: wrap;
 }
 .region-btn {
     display: inline-block;
-    margin: 30px auto;
+    margin: 2em auto;
     width: fit-content;
     border: 1px solid var(--color-green);
-    padding: 14px 50px;
+    padding: 1em 3em;
     border-radius: 30px;
     text-decoration: none;
     background-color: var(--color-green);
     color: var(--text-white);
     transition: background 0.5s;
-    font-size: clamp(1.75rem, 2vw, 2.5rem);
+    font-size: clamp(1.25rem, 2vw, 2.5rem);
 }
 .region-btn:hover {
     background: var(--color-lgt-green);
     color: var(--text-blk);
 
 }
-.state-instructions {
+/* .state-instructions {
     margin: 1rem auto;
     text-align: center;
     width: 70%;
-}
+} */
 .state-summary {
-    font-size: 2.5rem;
-    padding: 2rem 6rem;
+    font-size: clamp(1.5rem, 2vw, 2.25rem);
+    padding: .5em 2em .5em 2em;
     text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 500;
 }
 /* --- end State Pages --- */
 
-/* === Region Pages Listings === */
+
+/* ===== DYNAMIC REGIONS PAGE ===== */
+
+/* Dynamic Region hero */
+#region-hero img {
+    /* min-height: calc(50vh - 60px - 60px); */
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.region-container-description {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.headline-region {
+    font-size: clamp(4rem, 7vw + 1rem, 7rem);
+    margin-top: .5em;
+    color: var(--text-blk);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+.headline-region.region-name {
+    background-color: whitesmoke;
+    color: var(--color-green);
+    z-index: 10;
+}
+.listings-title {
+    font-size: clamp(1.5rem, 2vw, 2.25rem);
+    text-align: justify;
+    font-weight: 500;
+    width: 95%;
+    margin: 0 auto;
+    padding: .5em 0;
+}
+
+/* === Dynamic Region Pages Listings === */
 .listings-grid {
     display: grid;
-    grid-template-columns: 70% 1fr;
-    gap: 4rem;
-    padding: 0 4rem;
+    grid-template-columns: 80% 1fr;
+    gap: 2em;
+    /* padding: 0 4em; */
     border: 2px solid red;
     padding-top: 3rem;
     background: var(--listings-background);
@@ -432,8 +477,8 @@ select#usStates {
 .listings-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    gap: 2rem;
-    font-size: 1.35rem;
+    gap: .5em;
+    font-size: clamp(1.2rem, 1.5vw, 1.35rem);
     border: 2px solid rgb(201, 158, 57);
 }
 .listings-img {
@@ -457,6 +502,7 @@ select#usStates {
     color: green;
     font-size: 3rem;
     font-weight: bold;
+    font-size: clamp(2rem, 3vw, 3rem);
 }
 .facility-name:hover {
     color: var(--color-lgt-green);
@@ -470,51 +516,38 @@ select#usStates {
 }
 .featured-label {
     color: red;
-    font-size: 1.75rem;
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
     padding-top: .5rem;
 }
 .facility-amenities {
     color: purple;
     padding-top: .25rem;
 }
+
+/* Region listings media queries*/
+@media(max-width:600px) {
+    .listings-grid {
+        grid-template-columns: 1fr;
+    }
+    .listings-grid-col2 {
+        display: none;
+    }
+    .listings-img {
+        display: none;
+    }
+    .listings-container  {
+        grid-template-columns: 5fr 1fr;
+    }
+}
+
+@media(max-width:500px) {
+    
+    
+}
+
 /* --- end Region Pages Listings --- */
 
-/* Regional Hero Backgrounds */
-#region-hero img {
-    /* min-height: calc(50vh - 60px - 60px); */
-    width: 100%;
-    height: 35vh;
-    object-fit: cover;
-}
-
-.region-container-description {
-    /* z-index: 10; */
-    /* background-color: rgb(168, 247, 169); */
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-}
-.headline-region {
-    font-size: clamp(4rem, 7vw + 1rem, 7rem);
-    margin-top: .5em;
-    color: var(--text-blk);
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 3rem;
-}
-.headline-region.region-name {
-    background-color: whitesmoke;
-    color: var(--color-green);
-    z-index: 10;
-}
-.listings-title {
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 500;
-    line-height: 4rem;
-    width: 80%;
-    margin: 0 auto;
-}
-#toronto-bg {
+/* #toronto-bg {
     min-height: calc(100vh - 60px - 60px);
     background-color: rgb(160, 174, 160);
     background-image: url('http://www.indoorgolfdir.com/assets/images/toronto.jpg');
@@ -543,17 +576,18 @@ select#usStates {
     min-height: 80vh;
     background-size: cover;
     padding-top: 3rem;
-}
+} */
 
 
 /* === Facilities Details Page === */
 .facility-details-container {
     display: flex;
     gap: 13rem;
-    min-height: 55rem;
+    /* min-height: 55rem; */
     align-items: center;
     padding: 0 5rem;
     background-color: rgb(232, 251, 228);
+    border: 2px dashed rebeccapurple;
 }
 .gallery {
     flex: 1;  /*with flex 1, both images and content will occupy same width*/
@@ -936,7 +970,7 @@ td img {
 
 /* ===== Footer ===== */
 footer {
-    padding: 3.5rem 0;
+    padding: 2em 0;
     background-color: var(--color-green);
     border: 3px solid black;
 }
@@ -945,14 +979,14 @@ footer {
     border: 3px solid black;
 }
 .footer-container {
-    width: 100%;
-    max-width: 1500px;
+    width: 95%;
+    max-width: 1200px;
 }
 .footer-columns {
     display: grid;
-    grid-template-columns: 30% repeat(3, 1fr);
-    gap: 4rem;
-    padding: 0 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    /* padding: 0 4rem; */
     border: 2px solid red;
     padding-top: 3rem;
 }
@@ -972,38 +1006,80 @@ footer {
     font-size: 4rem;
 }
 .footer-title {
-    color: black;
-    font-size: 2rem;
-    text-transform: uppercase;
+    color: var(--color-lgt-beige);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    /* text-transform: capitalize; */
     text-align: center;
-
+    text-wrap: balance;
 }
-
-.ft-nav-link {
-    transition: 0.7s ease;
+.col span {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    padding-bottom: 2em;
+}
+.col span a {
+    color: blue;
+    text-decoration: underline;
+}
+.col span a:hover {
     color: white;
-    font-size: 1.5rem;
+}
+.links {
+    border: 2px dashed purple;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+}
+.ft-nav-link {
+    transition: 0.4s ease;
+    color: white;
+    font-size: clamp(.75rem, 2vw, 1.5rem);
 }
 .ft-nav-link:hover {
     color: black;
 }
+.search-footer {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
 
 .divider {
     border: 1px solid black;
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
 }
 .copyright {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
-    font-size: 0.75rem;
+}
+.copyright p {
+    font-size: clamp(1rem, 1.5vw, 2rem);
 }
 .copyright a:hover {
     color: var(--color-aqua);
 }
 
+@media(max-width:500px) {
+    .footer-columns {
+        grid-template-columns: 1fr;
+    }
+    .footer-links {
+        display: flex;
+    }
+    footer ul li {
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    .ft-nav-link {
+        padding: .5em;
+    }
+    .copyright {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* --- end Footer --- */
 
 /* Miscelaneous */
 .form-sample {

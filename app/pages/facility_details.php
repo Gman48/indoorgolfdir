@@ -10,7 +10,7 @@ if(isset($_GET['facility_id'])) {
 
 <!-- Page layout for Facilities Details -->
 <section class="facility-details-container container">
-    <div class="default gallery">
+    <div class="gallery">
         <div class="main-img">
             <img class="active" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="facility-image">
             <img src="<?=ROOT?>/<?=$row['facility_img2']?>" alt="facility-image">
@@ -85,7 +85,7 @@ if(isset($_GET['facility_id'])) {
         </div>
 
         <div>
-        <?php $filePath = 'http://localhost/indoorGolfDir';?>
+        <?php $filePath = 'http://www.indoorgolfdir.com';?>
             <h3 class="mid-title">Amenities</h3>
             <div class="amenities-box">
                 <div class="amenities">

@@ -26,7 +26,7 @@ if(isset($_GET['region_id'])) {
 <!-- Listings Section -->
 <section class="container">
     <div class="listings-grid">
-        <div class="listings-grid-col1">
+        <div > <!-- first column -->
         
             <?php 
                 $query = "select * from allfacilities where region = :region order by featured desc, rand()";

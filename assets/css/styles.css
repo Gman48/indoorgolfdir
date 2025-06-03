@@ -258,9 +258,9 @@ footer a {
         flex-direction: column;
     }
 
-    footer {
+    /* footer {
         flex-direction: column;
-    }
+    } */
 }
 
 /* Styles from original ATC website */
@@ -755,13 +755,10 @@ footer .container p {
 footer .col h3 {
   margin-bottom: 10px;
 }
-footer ul {
+/* footer ul {
   flex-direction: column;
-}
-footer ul li {
-  margin: 10px auto;
-  cursor: pointer;
-}
+} */
+
 footer .container .col:nth-child(1) p {
   margin: 20px auto;
 }

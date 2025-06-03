@@ -7,27 +7,34 @@
 					<!-- <span>IG.dir</span> -->
 					<img src="<?=ROOT?>/assets/images/IGdirLogo.png">
 				</div>
-				<p >Indoor Golf Directory is one of the most comprehensive directories on the internet for Indoor Golf facilities in North America.  Our process ensures that the information presented in our directory is accurate and up to date ensuring the best user experience for you.</p>
+				<p >The Indoor Golf Directory is one of the most comprehensive directories on the internet for Indoor Golf facilities in North America.  Our process ensures that the information presented in our directory is accurate and up to date ensuring the best user experience for you.</p>
 			</div>
 
-			<div data-aos="zoom-in" class="col" class="company"> 
-				<h3 class="footer-title">Browse</h3>
+			<div data-aos="zoom-in" class="col sales-box"> 
+				<h3 class="footer-title">Do your own an Indoor Golf facility that is not listed in our directory?<br></h3>
+				<span>email <a href="mailto:info@indoorgolfdir.com">info@indoorgolfdir.com</a></span>
+				<h3 class="footer-title">Would you like your listing to be a featured listing?</h3>
+				<span>Contact us at <a href="mailto:sales@indoorgolfdir.com">sales@indoorgolfdir.com</a></span></span>
+			</div>
+
+			<div data-aos="zoom-in" class="links"> 
+				<h3 class="ft-links-title">Page Links</h3>
 				<ul class="footer-links">
 					<li class="ft-nav-item">
                     	<a href="<?=ROOT?>/home" class="ft-nav-link">Home</a>
                 	</li>
 					<li class="ft-nav-item">
-						<a href="#" class="ft-nav-link">Canada</a>
+						<a href="<?=ROOT?>/#country" class="ft-nav-link">Canada</a>
 					</li>
 					<li class="ft-nav-item">
-						<a href="#" class="ft-nav-link">United States</a>
+						<a href="<?=ROOT?>/#country" class="ft-nav-link">United States</a>
 					</li>
-					<li class="ft-nav-item">
+					<!-- <li class="ft-nav-item">
 						<a href="#" class="ft-nav-link">Blog</a>
-					</li>
-					<li class="ft-nav-item">
+					</li> -->
+					<!-- <li class="ft-nav-item">
 						<a href="#" class="ft-nav-link">About Us</a>
-					</li>
+					</li> -->
 					<li class="ft-nav-item">
 						<a href="<?=ROOT?>/admin" class="ft-nav-link">Admin</a>
 					</li>
@@ -38,12 +45,14 @@
 					</li>
 					<?php endif;?>
 				</ul>
-			</div>
 
-			<div data-aos="zoom-in" class="col sales-box"> 
-				<h3 class="footer-title">Do your own an Indoor Golf facility that is not listed in our directory?</h3>
-				<h3>Would you like your listing to be a featured listing?</h3>
-				<span>contact us at sales@indoorgolfdir.com</span>
+				<div class="search-footer">
+					<span>Quick search</span>
+					<form action="search" method="POST">
+						<input type="text" name="search" placeholder="facility name or city">
+						<button class="btn btn-dark" type="submit" name="submit-search">Search</button>
+					</form>
+				</div>
 			</div>
 
 			<!-- <div data-aos="zoom-in" class="col" class="company"> 
@@ -67,20 +76,13 @@
 				<li><div class="fa fa-github"></div></li>
 				<li><div class="fa fa-youtube"></div></li>
 			</ul> -->
-
-			<div class="search-footer">
-				<span>Quick search</span>
-				<form action="search" method="POST">
-					<input type="text" name="search" placeholder="facility name or city">
-					<button class="btn btn-dark" type="submit" name="submit-search">Search</button>
-				</form>
-			</div>
+			
 		</div>
 	</div>
 
 	<hr class="divider">
 	<div class="copyright">
-		<p>Copyright @<?=date("Y")?> Indoor Golf Directory</p>
+		<p>Copyright @<?=date("Y")?> The Indoor Golf Directory</p>
 		<p>Web Design and Development by <a href="https://ez-webs.com">ez-webs.com</a></p>
 	</div>
 </footer>

@@ -43,17 +43,17 @@
                     <a href="<?=ROOT?>/home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=ROOT?>/canada" class="nav-link">Canada</a>
+                    <a href="<?=ROOT?>/#country" class="nav-link">Canada</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=ROOT?>/usa" class="nav-link">USA</a>
+                    <a href="<?=ROOT?>/#country" class="nav-link">USA</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="<?=ROOT?>/blog" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a href="<?=ROOT?>/about" class="nav-link">About Us</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a href="<?=ROOT?>/admin" class="nav-link">Admin</a>
                 </li>
