@@ -10,7 +10,59 @@ if(isset($_GET['facility_id'])) {
 
 <!-- Page layout for Facilities Details -->
 <section class="facility-details-container container">
-    <div class="gallery">
+    <div class="content">
+        <div class="location">
+            <div class="fac-details-name-address">
+                <h2 class="fac-details-name"><?=$row['facility_name']?></h2>
+                <p class="fac-details-address"><?=$row['facility_street']?>, <?=$row['facility_city']?>, <?=$row['facility_postal']?></p>
+            </div>
+            <div class="google-map">
+                <iframe src="<?=$row['map_link']?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="facility-desc">
+            <p><?=$row['details_desc']?></p>
+        </div>
+
+        <div>
+        <?php $filePath = 'http://www.indoorgolfdir.com';?>
+            <h3 class="mid-title">Amenities</h3>
+            <div class="amenities-box">
+                <div class="amenities">
+                    <?php if($row['bar']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Licensed bar"?>
+                    <?php if(!$row['bar']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Licensed bar"?>
+                </div>
+                <div class="amenities">
+                    <?php if($row['food']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Food available"?>
+                    <?php if(!$row['food']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Food available"?>
+                </div>
+                <div class="amenities">
+                    <?php if($row['lessons']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Lessons available"?>
+                    <?php if(!$row['lessons']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Lessons available"?>
+                </div>
+                <div class="amenities">
+                    <?php if($row['leagues']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Organized leagues"?>
+                    <?php if(!$row['leagues']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Organized leagues"?>
+                </div>
+                <div class="amenities">
+                    <?php if($row['24hrs']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> 24hr automated access"?>
+                    <?php if(!$row['24hrs']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> 24hr automated access"?>
+                </div>
+                <div class="amenities">
+                    <?php echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='checkmark'>"?> Facility has <?=$row['bays']?> bays
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="sm-title">Visit <?=$row['facility_name']?>'s website</div>
+            <span class="website-link">
+                <a target="_blank" href="<?=$row['website_link']?>"><?=$row['website_short']?></a>
+            </span>
+        </div>
+    </div>
+
+    <div class="default gallery">
         <div class="main-img">
             <img class="active" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="facility-image">
             <img src="<?=ROOT?>/<?=$row['facility_img2']?>" alt="facility-image">
@@ -69,57 +121,7 @@ if(isset($_GET['facility_id'])) {
         </div>
     </div>
 
-    <div class="content">
-        <div class="location">
-            <div class="fac-details-name-address">
-                <h2 class="fac-details-name"><?=$row['facility_name']?></h2>
-                <span class="fac-details-address"><?=$row['facility_street']?>, <?=$row['facility_city']?>, <?=$row['facility_postal']?></span>
-            </div>
-            <div class="google-map">
-                <iframe src="<?=$row['map_link']?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
-        <div class="facility-desc">
-            <p><?=$row['details_desc']?></p>
-        </div>
-
-        <div>
-        <?php $filePath = 'http://www.indoorgolfdir.com';?>
-            <h3 class="mid-title">Amenities</h3>
-            <div class="amenities-box">
-                <div class="amenities">
-                    <?php if($row['bar']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Licensed bar"?>
-                    <?php if(!$row['bar']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Licensed bar"?>
-                </div>
-                <div class="amenities">
-                    <?php if($row['food']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Food available"?>
-                    <?php if(!$row['food']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Food available"?>
-                </div>
-                <div class="amenities">
-                    <?php if($row['lessons']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Lessons available"?>
-                    <?php if(!$row['lessons']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Lessons available"?>
-                </div>
-                <div class="amenities">
-                    <?php if($row['leagues']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> Organized leagues"?>
-                    <?php if(!$row['leagues']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> Organized leagues"?>
-                </div>
-                <div class="amenities">
-                    <?php if($row['24hrs']) echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='facility image'> 24hr automated access"?>
-                    <?php if(!$row['24hrs']) echo "<img class='sm-icon' src='$filePath/assets/icons/red_x.png' alt='facility red image'> 24hr automated access"?>
-                </div>
-                <div class="amenities">
-                    <?php echo "<img class='sm-icon' src='$filePath/assets/icons/green_check.png' alt='checkmark'>"?> Facility has <?=$row['bays']?> bays
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="sm-title">Visit <?=$row['facility_name']?> website</div>
-            <span class="website-link">
-                <a target="_blank" href="<?=$row['website_link']?>"><?=$row['website_short']?></a>
-            </span>
-        </div>
-    </div>
+    
 </section>
 
 

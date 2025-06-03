@@ -14,7 +14,7 @@
 </div>
 
 <div class="container">
-    <p class="state-instructions">With over 100 indoor golf facilities in Maine you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Maine facilities below.</p>
+    <p class="state-summary">With over 100 indoor golf facilities in Maine you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Maine facilities below.</p>
 </div>
 
 <!-- Listings Section -->

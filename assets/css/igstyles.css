@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+.right-sidebar {
+    display: none;
+}
 /* === GLOBAL === */
 :root {
     --text-blk: black; 
@@ -93,14 +96,14 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
-    border: 3px solid rgb(55, 106, 244);
+    /* border: 3px solid rgb(55, 106, 244); */
 }
 .container {
     width: 95%;
     max-width: 1200px;
     margin: 1rem auto;
     padding: 0 2em;
-    border: 5px solid rgb(224, 39, 193);
+    /* border: 5px solid rgb(224, 39, 193); */
     text-wrap: balance;
 }
 
@@ -324,7 +327,7 @@ a {
     color: blue;
 }
 .country-grid {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 3rem;
@@ -332,11 +335,11 @@ a {
     font-size: clamp(3rem, 5vw, 5rem);
 }
 .canada {
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     text-align: center;
 }
 .unitedstates {
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     text-align: center;
 }
 .dropdown {
@@ -464,22 +467,22 @@ select#usStates {
     grid-template-columns: 80% 1fr;
     gap: 2em;
     /* padding: 0 4em; */
-    border: 2px solid red;
+    border: 1px solid green;
     padding-top: 3rem;
     background: var(--listings-background);
 }
 .listings-grid-col1 {
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 .listings-grid-col2 {
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
 }
 .listings-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     gap: .5em;
     font-size: clamp(1.2rem, 1.5vw, 1.35rem);
-    border: 2px solid rgb(201, 158, 57);
+    /* border: 2px solid rgb(201, 158, 57); */
 }
 .listings-img {
     width: 12rem;
@@ -490,12 +493,12 @@ select#usStates {
     border: 1.5px solid var(--color-dark-orange);
 }
 .listings-summary {
-    border: 2px solid rgb(78, 97, 12);
+    /* border: 2px solid rgb(78, 97, 12); */
 }
 .name-featured {
     /* display: flex; */
     padding-bottom: .5rem;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     /* gap: 5rem; */
 }
 .facility-name {
@@ -525,9 +528,14 @@ select#usStates {
 }
 
 /* Region listings media queries*/
+@media(max-width:500px) {
+    
+}
+
 @media(max-width:600px) {
     .listings-grid {
         grid-template-columns: 1fr;
+        padding: .5em 2em;
     }
     .listings-grid-col2 {
         display: none;
@@ -539,12 +547,6 @@ select#usStates {
         grid-template-columns: 5fr 1fr;
     }
 }
-
-@media(max-width:500px) {
-    
-    
-}
-
 /* --- end Region Pages Listings --- */
 
 /* #toronto-bg {
@@ -582,29 +584,38 @@ select#usStates {
 /* === Facilities Details Page === */
 .facility-details-container {
     display: flex;
-    gap: 13rem;
-    /* min-height: 55rem; */
+    flex-direction: column;
+    /* gap: 10rem; */
     align-items: center;
-    padding: 0 5rem;
+    padding: 0 5em;
     background-color: rgb(232, 251, 228);
-    border: 2px dashed rebeccapurple;
+    /* border: 2px dashed rebeccapurple; */
 }
-.gallery {
-    flex: 1;  /*with flex 1, both images and content will occupy same width*/
+.content {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-top: 1rem;
+    justify-content: left;
+    /* border: 2px solid red; */
+    /* gap: 2em; */
 }
+/* .content div {
+    border: 2px solid purple;
+} */
 .location {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    /* gap: .3em; */
+    /* border: 2px dashed red; */
+}
+.fac-details-name-address {
+    /* border: 2px dashed blue; */
 }
 .google-map {
-    width: 300px;
-    height: 250px;
-    /* padding-bottom: 50%; */
+    width: 250px;
+    height: 225px;
     position: relative;
     border: 2px solid black;
 }
@@ -615,26 +626,77 @@ select#usStates {
     top: 0;
     position: absolute;
 }
-.content {
-    flex: 2;  /*with flex 1, both images and content will occupy same width*/
+
+.sm-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+.fac-details-name {
+    color: var(--color-green);
+    font-size: clamp(2.5rem, 8vw, 7rem);
+    font-weight: 600;
+    margin-top: .5em;
+    border: 2px solid salmon;
+}
+.fac-details-address {
+    color: var(--color-green-text);
+    font-weight: 300;
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    border: 2px solid salmon;
+}
+.mid-title {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: var(--color-light-black);
+    text-decoration: underline;
+}
+.facility-desc p{
+    margin: 2rem 0 0 0;
+    color: black;
+    /* font-size: 1.75rem; */
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+}
+.amenities-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex;
+    justify-content: space-between; */
+    gap: 2rem;
+    margin-bottom: 2em;
+}
+.amenities {
+    color: rgb(42, 138, 133);
+    font-size: clamp(1.5rem, 1.5vw, 1.65rem);
+}
+.sm-title {
+    color: black;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.website-link a {
+    color: blue;
+    font-size: 1.75rem;
+    text-decoration: underline;
+    /* padding-left: .5em; */
+}
+.website-link a:hover {
+    color: var(--color-green);
+}
+
+.gallery {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin-left: -8rem;
-    /* margin-top: -5rem; */
-    border: 2px solid red;
     gap: 2rem;
+    margin-top: 1rem;
 }
-/* .content div {
-    border: 2px solid purple;
-} */
 .gallery .main-img img {
     display: none;
 }
 .gallery .main-img img.active {
     display: inline-block;
-    width: 45rem;
-    height: 40rem;
+    width: 45em;
+    height: 40em;
     border-radius: 2rem;
     cursor: pointer;
     background-size: cover;
@@ -670,7 +732,7 @@ select#usStates {
 .lightbox {
     display: none;
     position: absolute;
-    top: 0;
+    top: 40%;
     left: 0;
     height: 100vh;
     width: 100vw;
@@ -724,56 +786,31 @@ select#usStates {
     fill: black;
 }
 
-/* Facilities details content */
-.sm-icon {
-    width: 2rem;
-    height: 2rem;
-    margin-right: .5rem;
-}
-.amenities-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-.fac-details-name {
-    margin: 0;
-    padding: 1rem 0;
-    color: var(--color-green);
-}
-.mid-title {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    color: var(--color-light-black);
-    text-decoration: underline;
+
+@media(max-width:500px) {
+    .gallery .main-img img.active {
+        width: 30em;
+        height: 28em;
+    }
+    .lightbox .gallery {
+        max-width: 30rem;
+    }
+    .gallery .thumb-list {
+    max-width: 30rem;
+    }
+    .gallery .thumb-list div {
+        width: 7rem;
+        height: 7rem;
+        margin: 0 .2rem;
+    }
 }
 
-.facility-desc p{
-    margin: 2rem 0 0 0;
-    color: black;
-    font-size: 1.75rem;
+@media(max-width:750px) {
+    .amenities-box {
+        grid-template-columns: 1fr 1fr;
+    }
 }
-.fac-details-address {
-    color: var(--color-green-text);
-    font-size: 1.5rem;
-}
-.amenities {
-    color: rgb(42, 138, 133);
-    font-size: 1.65rem;
-}
-.sm-title {
-    color: black;
-    font-size: 2rem;
-    padding-top: 2rem;
-}
-.website-link a {
-    color: blue;
-    font-size: 1.75rem;
-    text-decoration: underline;
-    padding-left: .5rem;
-}
-.website-link a:hover {
-    color: var(--color-green);
-}
+
 
 /* --- end Facilities Details Page --- */
 
@@ -987,11 +1024,11 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
     /* padding: 0 4rem; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 3rem;
 }
 .col {
-    border: 2px solid sandybrown;
+    /* border: 2px solid sandybrown; */
 }
 .footer-logo {
     display: flex;
@@ -1024,7 +1061,7 @@ footer {
     color: white;
 }
 .links {
-    border: 2px dashed purple;
+    /* border: 2px dashed purple; */
     display: flex;
     flex-direction: column;
     padding-left: 3em;

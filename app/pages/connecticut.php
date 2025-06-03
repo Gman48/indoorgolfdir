@@ -14,7 +14,7 @@
 </div>
 
 <div class="container">
-    <p class="state-instructions">With over 70 indoor golf facilities in Connecticut you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Connecticut facilities below.</p>
+    <p class="state-summary">With over 70 indoor golf facilities in Connecticut you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Connecticut facilities below.</p>
 </div>
 
 <!-- Listings Section -->
