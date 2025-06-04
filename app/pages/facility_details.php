@@ -9,15 +9,17 @@ if(isset($_GET['facility_id'])) {
 ?>
 
 <!-- Page layout for Facilities Details -->
-<section class="facility-details-container container">
+<section class="facility-details-container ">
     <div class="content">
         <div class="location">
             <div class="fac-details-name-address">
                 <h2 class="fac-details-name"><?=$row['facility_name']?></h2>
                 <p class="fac-details-address"><?=$row['facility_street']?>, <?=$row['facility_city']?>, <?=$row['facility_postal']?></p>
             </div>
-            <div class="google-map">
-                <iframe src="<?=$row['map_link']?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map">
+                <div class="google-map">
+                    <iframe src="<?=$row['map_link']?>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
 

@@ -92,7 +92,7 @@ hr {
 }
 .page-container {
     background-color: rgb(231, 231, 231);
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -585,16 +585,17 @@ select#usStates {
 .facility-details-container {
     display: flex;
     flex-direction: column;
+    margin: 2em;
     /* gap: 10rem; */
     align-items: center;
-    padding: 0 5em;
+    padding: 0 2em;
     background-color: rgb(232, 251, 228);
-    /* border: 2px dashed rebeccapurple; */
+    border: 2px solid black;
 }
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    /* justify-content: left; */
     /* border: 2px solid red; */
     /* gap: 2em; */
 }
@@ -606,25 +607,23 @@ select#usStates {
     grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-around;
-    /* text-align: center; */
-    /* gap: .3em; */
+    /* align-items: center; */
+    gap: .5em;
     /* border: 2px dashed red; */
-}
-.fac-details-name-address {
-    /* border: 2px dashed blue; */
 }
 .google-map {
     width: 250px;
     height: 225px;
     position: relative;
     border: 2px solid black;
+    align-items: flex-end;
 }
 .google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .sm-icon {
@@ -632,30 +631,37 @@ select#usStates {
     height: 2rem;
     margin-right: .5rem;
 }
+.fac-details-name-address {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* border: 2px dashed blue; */
+}
 .fac-details-name {
     color: var(--color-green);
     font-size: clamp(2.5rem, 8vw, 7rem);
     font-weight: 600;
-    margin-top: .5em;
-    border: 2px solid salmon;
+    margin-bottom: -.5em;
+    /* border: 2px solid salmon; */
 }
 .fac-details-address {
     color: var(--color-green-text);
     font-weight: 300;
     font-size: clamp(1.4rem, 2.2vw, 2rem);
-    border: 2px solid salmon;
-}
-.mid-title {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    color: var(--color-light-black);
-    text-decoration: underline;
+    /* border: 2px solid salmon; */
 }
 .facility-desc p{
-    margin: 2rem 0 0 0;
+    margin: 2rem auto;
     color: black;
     /* font-size: 1.75rem; */
     font-size: clamp(1.75rem, 2.2vw, 2rem);
+}
+.mid-title {
+    margin-bottom: 1rem;
+    /* font-size: 2.5rem; */
+    font-size: clamp(2.2rem, 3vw, 2.5rem);
+    color: var(--color-light-black);
+    text-decoration: underline;
 }
 .amenities-box {
     display: grid;
@@ -671,12 +677,14 @@ select#usStates {
 }
 .sm-title {
     color: black;
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 1.8vw, 2rem);
+    /* font-size: 2rem; */
     padding-top: 2rem;
 }
 .website-link a {
     color: blue;
-    font-size: 1.75rem;
+    font-size: clamp(1.75rem, 1.8vw, 2rem);
+    /* font-size: 1.75rem; */
     text-decoration: underline;
     /* padding-left: .5em; */
 }
@@ -802,6 +810,11 @@ select#usStates {
         width: 7rem;
         height: 7rem;
         margin: 0 .2rem;
+    }
+    .google-map {
+        width: 120px;
+        height: 120px;
+        margin-top: 2em;
     }
 }
 
