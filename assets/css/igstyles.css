@@ -272,7 +272,7 @@ a {
     border: 2px solid red;
 }  */
 .headline {
-    font-size: clamp(5rem, 9vw, 11rem);
+    font-size: clamp(6.5rem, 12vw, 11rem);
     color: green;
     font-weight: 800;
     text-align: center;
@@ -281,7 +281,7 @@ a {
     padding-bottom: .3em;
 }
 .sub-text {
-    font-size: clamp(2rem, 3vw, 3.5rem);
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
     padding: .3em 0;
     margin: 0 auto;
     width: 75%;
@@ -299,13 +299,13 @@ a {
 
 /* ===== Home Page ===== */
 .intro {
-    font-size: clamp(1.5rem, 3vw, 2.75rem);
+    font-size: clamp(2.0rem, 3vw, 2.75rem);
     padding: 1.5em 2em .5em 2em;
     /* line-height: 2rem; */
     text-align: justify;
 }
 .headline-text {
-    font-size: clamp(3rem, 5vw, 5rem);
+    font-size: clamp(3.5rem, 5.5vw, 5.25rem);
     margin: .5em auto;
     color: var(--text-blk);
     text-align: center;
@@ -326,13 +326,16 @@ a {
 .usa {
     color: blue;
 }
+.can .usa {
+    font-size: clamp(3.5rem, 5vw, 5rem);
+}
 .country-grid {
     /* border: 2px solid green; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 3rem;
     margin-top: 1rem;
-    font-size: clamp(3rem, 5vw, 5rem);
+    font-size: clamp(3.5rem, 5vw, 5rem);
 }
 .canada {
     /* border: 2px dashed red; */
@@ -343,7 +346,7 @@ a {
     text-align: center;
 }
 .dropdown {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.25rem, 2.5vw, 2.25rem);
 }
 select#provinces {
     background-color: red;
@@ -357,7 +360,7 @@ select#usStates {
     display: flex;
     flex-direction: column;
     gap: 3em;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.25rem, 2.6vw, 2.5rem);
     margin: 0 auto;
     align-items: center;
 }
@@ -1057,13 +1060,13 @@ footer {
 }
 .footer-title {
     color: var(--color-lgt-beige);
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(1.75rem, 2.5vw, 2.5rem);
     /* text-transform: capitalize; */
     text-align: center;
     text-wrap: balance;
 }
 .col span {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1.5rem, 2vw, 1.5rem);
     padding-bottom: 2em;
 }
 .col span a {
@@ -1082,13 +1085,13 @@ footer {
 .ft-nav-link {
     transition: 0.4s ease;
     color: white;
-    font-size: clamp(.75rem, 2vw, 1.5rem);
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
 }
 .ft-nav-link:hover {
     color: black;
 }
 .search-footer {
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 
 .divider {
@@ -1117,7 +1120,7 @@ footer {
         display: flex;
     }
     footer ul li {
-        justify-content: space-around;
+        justify-content: space-between;
         cursor: pointer;
     }
     .ft-nav-link {
