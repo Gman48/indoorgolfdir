@@ -5,9 +5,9 @@
 			<div class="ft-col">
 				<div class="footer-logo logo-sm text-center">
 					<!-- <span>IG.dir</span> -->
-					<img src="<?=ROOT?>/assets/images/IGdirLogo.png">
+					<img src="<?=ROOT?>/assets/images/IGDlogo.png">
 				</div>
-				<p >The Indoor Golf Directory is one of the most comprehensive directories on the internet for Indoor Golf facilities in North America.  Our process ensures that the information presented in our directory is accurate and up to date ensuring the best user experience for you.</p>
+				<p class="idg-info">The Indoor Golf Directory is one of the most comprehensive directories on the internet for Indoor Golf facilities in North America.  Our process ensures that the information presented in our directory is accurate and up to date ensuring the best user experience for you.</p>
 			</div>
 
 			<div data-aos="zoom-in" class="col sales-box"> 

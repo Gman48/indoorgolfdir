@@ -33,7 +33,7 @@
 <header>
     <nav class="navbar">
         <div class="logo">
-            <a href="<?=ROOT?>/home" class="nav-branding"><img src="<?=ROOT?>/assets/images/IGdirLogo.png" alt="golfer logo"></a>
+            <a href="<?=ROOT?>/home" class="nav-branding"><img src="<?=ROOT?>/assets/images/IGDlogo.png" alt="golfer logo"></a>
             
         </div>
 

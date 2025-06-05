@@ -3,7 +3,7 @@
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
     <h1 class="headline-state">Indoor Golf Directory</h1>
-    <h1 class="headline-state">New Jersey</h1>
+    <h1 class="headline">New Jersey</h1>
     <h3 class="sub-text">What region of New Jersey are you looking in?</h3>
 
     <div class="region-btns">
