@@ -113,6 +113,9 @@ hr {
 .logo-sm {
     width: 12rem;
 }
+.logo-sm img {
+    border-radius: 50%;
+}
 
 .bg-image {
     background-size: cover;
@@ -159,8 +162,9 @@ header {
     align-items: center;
 }
 .logo img {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
 }
 
 li {
@@ -275,7 +279,7 @@ a {
     border: 2px solid red;
 }  */
 .headline {
-    font-size: clamp(6.5rem, 12vw, 11rem);
+    font-size: clamp(6.5rem, 10vw, 9rem);
     color: green;
     font-weight: 800;
     text-align: center;
@@ -298,6 +302,9 @@ a {
     /* width: 70%; */
     margin: 0 auto;
     -webkit-text-stroke: .5rem rgba(89, 116, 91, 0.266);
+}
+.state-name-lg {
+    font-size: clamp(3.6rem, 10vw, 9rem);
 }
 
 /* ===== Home Page ===== */

@@ -3,13 +3,13 @@
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
     <h1 class="headline-state">Indoor Golf Directory</h1>
-    <h1 class="headline">Connecticut</h1>
+    <h1 class="headline state-name-lg">Connecticut</h1>
     <h3 class="sub-text">What region of Connecticut are you looking in?</h3>
     
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=58" class="region-btn">Hartford</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=56" class="region-btn">New Haven</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=59" class="region-btn">Rural Connecticut</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=59" class="region-btn">Western Connecticut</a>
     </div>
 </div>
 
