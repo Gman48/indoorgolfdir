@@ -279,7 +279,7 @@ a {
     border: 2px solid red;
 }  */
 .headline {
-    font-size: clamp(6.5rem, 10vw, 9rem);
+    font-size: clamp(6.5rem, 11vw, 10rem);
     color: green;
     font-weight: 800;
     text-align: center;
@@ -304,9 +304,11 @@ a {
     -webkit-text-stroke: .5rem rgba(89, 116, 91, 0.266);
 }
 .state-name-lg {
-    font-size: clamp(3.6rem, 10vw, 9rem);
+    font-size: clamp(3.6rem, 11vw, 10rem);
 }
-
+.state-name-md {
+    font-size: clamp(4.8rem, 11vw, 10rem);
+}
 /* ===== Home Page ===== */
 .intro {
     font-size: clamp(2.0rem, 3vw, 2.75rem);
