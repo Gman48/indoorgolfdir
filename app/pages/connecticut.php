@@ -9,7 +9,9 @@
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=58" class="region-btn">Hartford</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=56" class="region-btn">New Haven</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=66" class="region-btn">Stamford</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=59" class="region-btn">Western Connecticut</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=65" class="region-btn">Eastern Connecticut</a>
     </div>
 </div>
 
