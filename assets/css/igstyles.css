@@ -51,7 +51,7 @@ body {
     min-height: 100vh;
     position: relative;
     max-width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .dis-flex {
     display: flex;
@@ -891,8 +891,8 @@ td a {
 
 /* === Admin Pages === */
 .table-container {
-    width: 95%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 2rem;
     border: 2px dashed purple;

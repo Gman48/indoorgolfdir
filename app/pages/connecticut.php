@@ -7,16 +7,16 @@
     <h3 class="sub-text">What region of Connecticut are you looking in?</h3>
     
     <div class="region-btns">
-        <a href="<?=ROOT?>/dynamic_region?region_id=58" class="region-btn">Hartford</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=56" class="region-btn">New Haven</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=66" class="region-btn">Stamford</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=58" class="region-btn">Central CT (Hartford / New Haven)</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=56" class="region-btn">New Haven</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=66" class="region-btn">Stamford</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=59" class="region-btn">Western Connecticut</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=65" class="region-btn">Eastern Connecticut</a>
     </div>
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 70 indoor golf facilities in Connecticut you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Connecticut facilities below.</p>
+    <p class="state-summary">With over 30 indoor golf facilities in Connecticut you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Connecticut facilities below.</p>
 </div>
 
 <!-- Listings Section -->
