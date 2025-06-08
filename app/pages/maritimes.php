@@ -8,10 +8,10 @@
 
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=20" class="region-btn">Nova Scotia</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=15" class="region-btn">Halifax</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=15" class="region-btn">Halifax</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=19" class="region-btn">New Brunswick</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=18" class="region-btn">Fredericton</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=21" class="region-btn">Moncton</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=18" class="region-btn">Fredericton</a> -->
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=21" class="region-btn">Moncton</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=16" class="region-btn">Prince Edward Island</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=17" class="region-btn">Newfoundland</a>
     </div>
