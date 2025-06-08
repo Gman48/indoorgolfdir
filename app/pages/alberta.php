@@ -69,4 +69,6 @@
     </div>
 </section>
 
+<?php require page('includes/update');?>
+
 <?php require page('includes/footer');?>

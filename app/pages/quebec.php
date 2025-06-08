@@ -1,36 +1,30 @@
 <?php require page('includes/header');?>
 
-<?php
-if(isset($_GET['region_id'])) {
-    $id = $_GET['region_id'];
-    $query = "select * from regions where region_id = :region_id limit 1";
-    $row = db_query_one($query,['region_id'=>$id]);
-    $region = $row['region'];
-}
-?>
-
 <!-- Hero Section -->
-<div id="region-hero">
-    <img src="<?=ROOT?>/<?=$row['region_img']?>" alt="Region Image">
+<div id="hero-bg" class="hero-bg-state">
+    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline">Quebec</h1>
+    <h3 class="sub-text">What region of Quebec are you looking in?</h3>
+
+    <div class="region-btns">
+        <a href="<?=ROOT?>/dynamic_region?region_id=27" class="region-btn">Greater Montreal</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=28" class="region-btn">Quebec City Region</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=29" class="region-btn">Northern Quebec</a>
+    </div>
 </div>
 
-<div class="page-container">
-    <div class="container region-container">
-        <h1 class="headline-region">Indoor Golf Facilities</h1>
-        <h1 class="headline-region region-name"><?=esc($row['region_name'])?></h1>
-    </div>
-    <div class="container region-container-description">
-        <p class="listings-title">The following is a listing of indoor golf facilities that can be found <?=esc($row['region_desc'])?>.  Click on the facility name for more detailed information about the facility, including a map and a link to the facilitie's website.</p>
-    </div>
+<div class="container">
+    <p class="state-summary">With over 75 indoor golf facilities in Quebec you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
+</div>
 
 <!-- Listings Section -->
 <section class="container">
     <div class="listings-grid">
-        <div > <!-- first column -->
+        <div class="listings-grid-col1">
         
             <?php 
-                $query = "select * from allfacilities where region = :region order by featured desc, rand()";
-                $rows = db_query($query, ['region'=>$region]);
+                $query = "select * from allfacilities where state = :state and featured = 1";
+                $rows = db_query($query, ['state'=>'ont']);
             ?>
 
             <?php if(!empty($rows)):?>
@@ -64,18 +58,14 @@ if(isset($_GET['region_id'])) {
         </div>
 
         <div class="listings-grid-col2">
-            <!-- <div class="right-sidebar">
-                <div class="ad-grid-item">
-                    <img class="listings-img" src="/assets/images/Albatross2.jpg" alt="add space">
-                </div>
+            <div class="right-sidebar">
+                <div class="ad-grid-item">Add space</div>
                 <div class="ad-grid-item">Second Add space</div>
                 <div class="ad-grid-item">Third Add space</div>
-            </div> -->
+            </div>
         </div>
     </div>
 </section>
-</div>
 
 <?php require page('includes/update');?>
-
 <?php require page('includes/footer');?>

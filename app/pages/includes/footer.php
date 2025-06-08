@@ -12,7 +12,7 @@
 
 			<div data-aos="zoom-in" class="col sales-box"> 
 				<h3 class="footer-title">Do your own an Indoor Golf facility that is not listed in our directory?<br></h3>
-				<span>email <a href="mailto:info@indoorgolfdir.com">info@indoorgolfdir.com</a></span>
+				<span>email <a href="mailto:listings@indoorgolfdir.com">listings@indoorgolfdir.com</a></span>
 				<h3 class="footer-title">Would you like your listing to be a featured listing?</h3>
 				<span>Contact us at <a href="mailto:sales@indoorgolfdir.com">sales@indoorgolfdir.com</a></span></span>
 			</div>

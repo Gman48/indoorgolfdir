@@ -438,6 +438,21 @@ select#usStates {
     margin: 0 auto;
     font-weight: 500;
 }
+.update {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    padding: .5em 2em .5em 2em;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(123, 142, 119);
+    color: whitesmoke;
+    /* font-weight: 300; */
+}
+.update a {
+    text-decoration: underline;
+    color: blue;
+}
 @media(max-width:500px) {
 .state-summary {
     padding: .5em;
