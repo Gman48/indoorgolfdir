@@ -24,7 +24,7 @@
         
             <?php 
                 $query = "select * from allfacilities where state = :state and featured = 1";
-                $rows = db_query($query, ['state'=>'ont']);
+                $rows = db_query($query, ['state'=>'qc']);
             ?>
 
             <?php if(!empty($rows)):?>
