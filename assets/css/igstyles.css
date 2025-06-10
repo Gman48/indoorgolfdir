@@ -915,7 +915,7 @@ td a {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 2rem;
-    border: 2px dashed purple;
+    /* border: 2px dashed purple; */
 }
 .form-container {
     width: 50%;
