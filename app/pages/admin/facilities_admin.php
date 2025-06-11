@@ -180,7 +180,7 @@
 			{
 				$errors['facility_name'] = "Facility name is required";
 			}else
-			if(!preg_match("/^[a-zA-Z0-9 \.\&\-\+\']+$/", $_POST['facility_name'])){
+			if(!preg_match("/^[a-zA-Z0-9 \.\&\-\(\)\!\'\']+$/", $_POST['facility_name'])){
 				$errors['facility_name'] = "Facility name can only have letters & spaces";
 			}
 
