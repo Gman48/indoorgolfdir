@@ -9,14 +9,14 @@
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=36" class="region-btn">New York City</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=51" class="region-btn">Long Island</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=51" class="region-btn">Hudson Valley</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=50" class="region-btn">Hudson Valley</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=37" class="region-btn">Capital District</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=49" class="region-btn">Mohawk Valley</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=49" class="region-btn">Mohawk Valley</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=47" class="region-btn">Central New York</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=38" class="region-btn">Southern Tier</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=38" class="region-btn">Southern Tier</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=46" class="region-btn">Finger Lakes</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=45" class="region-btn">Western New York</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=48" class="region-btn">North Country</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=48" class="region-btn">North Country</a> -->
     </div>
 </div>
 
