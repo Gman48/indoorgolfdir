@@ -14,7 +14,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 50 indoor golf facilities in Massachusetts you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Massachusetts facilities below.</p>
+    <p class="state-summary">With over 70 indoor golf facilities in Massachusetts you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Massachusetts facilities below.</p>
 </div>
 
 <!-- Listings Section -->
