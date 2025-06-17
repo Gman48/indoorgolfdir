@@ -54,9 +54,9 @@
                 <li class="nav-item">
                     <a href="<?=ROOT?>/about" class="nav-link">About Us</a>
                 </li> -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="<?=ROOT?>/admin" class="nav-link">Admin</a>
-                </li>
+                </li> -->
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
