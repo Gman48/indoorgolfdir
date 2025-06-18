@@ -9,14 +9,14 @@
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=11" class="region-btn">Edmonton and Vicinity</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=12" class="region-btn">Calgary and Vicinity</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=24" class="region-btn">Red Deer and Vicinity</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=39" class="region-btn">Lethbridge and Vicinity</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=24" class="region-btn">Red Deer and Vicinity</a> -->
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=39" class="region-btn">Lethbridge and Vicinity</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=25" class="region-btn">Rural Alberta</a>
     </div>
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 70 indoor golf facilities in Alberta you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Alberta facilities below.</p>
+    <p class="state-summary">With over 50 indoor golf facilities in Alberta you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Alberta facilities below.</p>
 </div>
 
 <!-- Listings Section -->
