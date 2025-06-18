@@ -30,7 +30,7 @@ if(isset($_GET['region_id'])) {
         
             <?php 
                 $query = "select * from allfacilities where region = :region, active = :active order by featured desc, rand()";
-                $rows = db_query($query, ['region'=>$region, 'active'=>1]);
+                $rows = db_query($query, ['region'=>$region, 'active'=>"1"]);
             ?>
 
             <?php if(!empty($rows)):?>
