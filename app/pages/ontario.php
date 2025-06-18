@@ -9,12 +9,12 @@
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=1" class="region-btn">Toronto</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=3" class="region-btn">GTA-West</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=6" class="region-btn">GTA-East</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=6" class="region-btn">GTA-East</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=7" class="region-btn">GTA-North</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=4" class="region-btn">Niagara</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=8" class="region-btn">Southwest</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=10" class="region-btn">Eastern</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=9" class="region-btn">Northern</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=9" class="region-btn">Northern</a> -->
     </div>
 </div>
 
