@@ -9,14 +9,14 @@
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=13" class="region-btn">Vancouver</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=14" class="region-btn">Okanagan Valley</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=35" class="region-btn">Victoria</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=35" class="region-btn">Victoria</a> -->
         <a href="<?=ROOT?>/dynamic_region?region_id=22" class="region-btn">Vancouver Island</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=23" class="region-btn">Northern BC</a>
+        <!-- <a href="<?=ROOT?>/dynamic_region?region_id=23" class="region-btn">Northern BC</a> -->
     </div>
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 270 indoor golf facilities in Ontario you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
+    <p class="state-summary">With over 25 indoor golf facilities in British Columbia you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
 </div>
 
 <!-- Listings Section -->

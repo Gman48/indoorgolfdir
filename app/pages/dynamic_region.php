@@ -29,7 +29,7 @@ if(isset($_GET['region_id'])) {
         <div > <!-- first column -->
         
             <?php 
-                $query = "select * from allfacilities where region = :region order by featured desc, rand()";
+                $query = "select * from allfacilities where region = :region, active = 1 order by featured desc, rand()";
                 $rows = db_query($query, ['region'=>$region]);
             ?>
 
