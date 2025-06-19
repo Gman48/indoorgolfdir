@@ -98,6 +98,8 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    padding-bottom: 2em;
+    border-radius: 30px;
     /* border: 3px solid rgb(55, 106, 244); */
 }
 .container {
@@ -487,6 +489,7 @@ select#usStates {
     background-color: whitesmoke;
     color: var(--color-green);
     z-index: 10;
+    border-radius: 25px;
 }
 .listings-title {
     font-size: clamp(1.5rem, 2vw, 2.25rem);
@@ -502,10 +505,11 @@ select#usStates {
     display: grid;
     grid-template-columns: 80% 1fr;
     gap: 2em;
-    /* padding: 0 4em; */
     border: 1px solid green;
-    padding-top: 3rem;
+    border-radius: 20px;
+    padding: 3em 0;
     background: var(--listings-background);
+    max-width: 1000px;
 }
 .listings-grid-col1 {
     /* border: 2px dashed red; */
@@ -524,6 +528,7 @@ select#usStates {
     width: 12rem;
     height: 12rem;
     padding: 1rem;
+    border-radius: 20px;
 }
 .list-break {
     border: 1.5px solid var(--color-dark-orange);
@@ -621,12 +626,14 @@ select#usStates {
 .facility-details-container {
     display: flex;
     flex-direction: column;
-    margin: 2em;
-    /* gap: 10rem; */
+    margin: 2em auto;
+    gap: 5em;
     align-items: center;
-    padding: 0 2em;
+    padding: 4em 2em;
     background-color: rgb(232, 251, 228);
     border: 2px solid black;
+    border-radius: 20px;
+    max-width: 1300px;
 }
 .content {
     display: flex;
@@ -647,18 +654,24 @@ select#usStates {
     gap: .5em;
     /* border: 2px dashed red; */
 }
+.map {
+    padding: 2.5em;
+    
+}
 .google-map {
     width: 250px;
     height: 225px;
     position: relative;
     border: 2px solid black;
     align-items: flex-end;
+    border-radius: 20px;
 }
 .google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
+    border-radius: 20px;
     /* position: absolute; */
 }
 

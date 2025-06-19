@@ -19,7 +19,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 270 indoor golf facilities in Ontario you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
+    <p class="state-summary">With over 140 indoor golf facilities in Ontario you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
 </div>
 
 <!-- Listings Section -->
