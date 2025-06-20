@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="<?=ROOT?>/assets/images/IGDlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="hLOq68Dg_nhUW3a6wA6DyrNJ9bpDQO99AZXS841uu9Q" />
     <meta name="description" content="Trusted listing of indoor golf facilities and simulators in North America with key information on each facility. New listings added everyday">
     <title><?=APP_NAME?> - <?=ucfirst($URL[0])?></title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">
