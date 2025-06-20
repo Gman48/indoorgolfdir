@@ -10,6 +10,8 @@ if(isset($_GET['region_id'])) {
 }
 ?>
 
+<meta name="description" content="Find indoor golf facilities and simulators in <?=esc($row['region_name'])?>">
+
 <!-- Hero Section -->
 <div id="region-hero">
     <img src="<?=ROOT?>/<?=$row['region_img']?>" alt="Region Image">

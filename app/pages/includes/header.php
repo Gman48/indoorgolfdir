@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="<?=ROOT?>/assets/images/IGDlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=APP_NAME?> - <?=ucfirst($URL[0])?> Indoor Golf</title>
+    <meta name="description" content="Trusted listing of indoor golf facilities and simulators in North America with key information on each facility. New listings added everyday">
+    <title><?=APP_NAME?> - <?=ucfirst($URL[0])?></title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">
 
     <!-- Bootstrap -->

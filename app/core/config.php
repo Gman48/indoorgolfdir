@@ -22,4 +22,4 @@ if($_SERVER['SERVER_NAME'] == "localhost")
 	define("DBNAME", "u630753873_indoorgolf");
 }
 
-define('APP_NAME', "Indoor Golf Directory");
+define('APP_NAME', "Indoor Golf");
