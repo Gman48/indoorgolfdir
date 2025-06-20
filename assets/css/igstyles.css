@@ -510,6 +510,7 @@ select#usStates {
     padding: 3em 0;
     background: var(--listings-background);
     max-width: 1000px;
+    margin: 0 auto;
 }
 .listings-grid-col1 {
     /* border: 2px dashed red; */
