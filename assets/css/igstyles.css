@@ -634,6 +634,7 @@ select#usStates {
     border: 2px solid black;
     border-radius: 20px;
     max-width: 1000px;
+    width: 95%;
 }
 .content {
     display: flex;
@@ -649,14 +650,13 @@ select#usStates {
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* align-items: center; */
-    gap: .5em;
+    gap: .75em;
     /* border: 2px dashed red; */
 }
 .map {
-    padding: 2.5em;
-    
+    padding-bottom: 2.5em;
 }
 .google-map {
     width: 250px;
@@ -685,6 +685,7 @@ select#usStates {
     flex-direction: column;
     gap: 1em;
     /* border: 2px dashed blue; */
+    align-items: flex-start;
 }
 .fac-details-name {
     color: var(--color-green);
@@ -844,6 +845,17 @@ select#usStates {
 }
 
 
+@media(max-width:750px) {
+    .amenities-box {
+        grid-template-columns: 1fr 1fr;
+    }
+    .google-map {
+        width: 160px;
+        height: 160px;
+        /* margin-top: 2em; */
+    }
+}
+
 @media(max-width:500px) {
     .gallery .main-img img.active {
         width: 30em;
@@ -863,16 +875,9 @@ select#usStates {
     .google-map {
         width: 120px;
         height: 120px;
-        margin-top: 2em;
+        /* margin-top: 2em; */
     }
 }
-
-@media(max-width:750px) {
-    .amenities-box {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 
 /* --- end Facilities Details Page --- */
 

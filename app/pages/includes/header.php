@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="<?=ROOT?>/assets/images/IGDlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=APP_NAME?> - <?=ucfirst($URL[0])?></title>
+    <title><?=APP_NAME?> - <?=ucfirst($URL[0])?> Indoor Golf</title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">
 
     <!-- Bootstrap -->
