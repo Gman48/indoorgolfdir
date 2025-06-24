@@ -523,6 +523,10 @@ select#usStates {
     grid-template-columns: 1fr 4fr 1fr;
     gap: .5em;
     font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+    background-color: whitesmoke;
+    padding: 0 1em;
+    margin: 0 1em;
+    border-radius: 20px;
     /* border: 2px solid rgb(201, 158, 57); */
 }
 .listings-img {
@@ -587,6 +591,7 @@ select#usStates {
     }
     .listings-container  {
         grid-template-columns: 5fr 1fr;
+        margin: 0;
     }
 }
 /* --- end Region Pages Listings --- */
