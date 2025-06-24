@@ -524,7 +524,7 @@ select#usStates {
     gap: .5em;
     font-size: clamp(1.2rem, 1.5vw, 1.35rem);
     background-color: whitesmoke;
-    padding: 0 1em;
+    padding: 0 .5em;
     margin: 0 1em;
     border-radius: 20px;
     /* border: 2px solid rgb(201, 158, 57); */
@@ -534,11 +534,14 @@ select#usStates {
     height: 12rem;
     padding: 1rem;
     border-radius: 20px;
+    background-color: rgb(103, 138, 103);
 }
 .list-break {
     border: 1.5px solid var(--color-dark-orange);
 }
 .listings-summary {
+    padding-left: .5em;
+    padding-top: .5em;
     /* border: 2px solid rgb(78, 97, 12); */
 }
 .name-featured {
