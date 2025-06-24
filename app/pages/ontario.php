@@ -36,7 +36,7 @@
             <?php foreach($rows as $row):?>
 
             <div class="listings-container">
-                <img class="listings-img" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="facility image">
+                <img class="listings-img" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="simulator image">
                 <div class="listings-summary">
                     <div class="name-featured">
                         <a class="facilitylink facility-name" href="<?=ROOT?>/facility_details?facility_id=<?=$row['facility_id']?>"><?=esc($row['facility_name'])?></a>

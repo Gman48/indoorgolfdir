@@ -10,7 +10,7 @@ if(isset($_GET['region_id'])) {
 }
 ?>
 
-<meta name="description" content="Find indoor golf facilities and simulators in <?=esc($row['region_name'])?>">
+<meta name="description" content="Indoor golf facilities and simulators near me in <?=esc($row['region_name'])?>">
 
 <!-- Hero Section -->
 <div id="region-hero">
@@ -23,7 +23,7 @@ if(isset($_GET['region_id'])) {
         <h1 class="headline-region region-name"><?=esc($row['region_name'])?></h1>
     </div>
     <div class="container region-container-description">
-        <p class="listings-title">The following is a listing of indoor golf facilities that can be found <?=esc($row['region_desc'])?>.  Click on the facility name for more detailed information about the facility, including a map and a link to the facilitie's website.</p>
+        <h3 class="listings-title">The following is a listing of indoor golf facilities with simulators that can be found <?=esc($row['region_desc'])?>.  Click on the facility name for more detailed information about the facility, including a map and a link to the facilities' website.</h3>
     </div>
 
 <!-- Listings Section -->

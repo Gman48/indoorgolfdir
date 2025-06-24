@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline-state">Indoor Golf Facilities</h1>
     <h1 class="headline">New York State</h1>
     <h3 class="sub-text">What region of New York State are you looking in?</h3>
 
@@ -21,7 +21,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 100 indoor golf facilities in New York State you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured New York State facilities below.</p>
+    <h3 class="state-summary">New York State is home to over 100 indoor golf facilities and simulators.  NYC, Long Island, Western New York or anywhere in between, you are sure to find a simulator near you.  Search by clicking on a region above or check out our featured New York State facilities below.</h3>
 </div>
 
 <!-- Listings Section -->
@@ -38,7 +38,7 @@
             <?php foreach($rows as $row):?>
 
             <div class="listings-container">
-                <img class="listings-img" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="facility image">
+                <img class="listings-img" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="simulator image">
                 <div class="listings-summary">
                     <div class="name-featured">
                         <div><a class="facilitylink facility-name" href="<?=ROOT?>/facility_details?facility_id=<?=$row['facility_id']?>"><?=esc($row['facility_name'])?></a></div>
