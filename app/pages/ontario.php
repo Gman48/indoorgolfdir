@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline-state">Indoor Golf Facilities</h1>
     <h1 class="headline">Ontario</h1>
     <h3 class="sub-text">What region of Ontario are you looking in?</h3>
 
@@ -19,7 +19,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 140 indoor golf facilities in Ontario you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
+    <h3 class="state-summary">With over 140 indoor golf facilities in Ontario you are sure to find one near you.  Search by clicking on a region above or check out our featured facilities below.</h3>
 </div>
 
 <!-- Listings Section -->

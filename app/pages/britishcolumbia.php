@@ -2,9 +2,9 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline-state">Indoor Golf Facilities</h1>
     <h1 class="headline">British Columbia</h1>
-    <h3 class="sub-text">What region of British Columbia are you looking in?</h3>
+    <h3 class="sub-text">Search for a golf simulator near you in the following regions of British Columbia</h3>
 
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=13" class="region-btn">Vancouver</a>

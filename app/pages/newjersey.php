@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline-state">Indoor Golf Facilities</h1>
     <h1 class="headline">New Jersey</h1>
     <h3 class="sub-text">What region of New Jersey are you looking in?</h3>
 
@@ -15,7 +15,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 50 indoor golf facilities in New Jersey you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured New Jersey facilities below.</p>
+    <p class="state-summary">New Jersey is home to over 50 indoor golf facilities with golf simulators that let you enjoy the game year round. From North to South Jersey and the Jersey Shore, you are sure to find a golf simulator near you.  Search by clicking on a region above or check out our featured New Jersey facilities below.</p>
 </div>
 
 <!-- Listings Section -->

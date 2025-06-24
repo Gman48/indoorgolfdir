@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline-state">Indoor Golf Facilities</h1>
     <h1 class="headline">Maine</h1>
     <h3 class="sub-text">What region of Maine are you looking in?</h3>
 
