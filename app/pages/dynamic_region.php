@@ -1,3 +1,5 @@
+<?php require page('includes/header2');?>
+
 <?php
 if(isset($_GET['region_id'])) {
     $id = $_GET['region_id'];
@@ -7,8 +9,6 @@ if(isset($_GET['region_id'])) {
     $region_pagename = $row['region_name'];
 }
 ?>
-
-<?php require page('includes/header2');?>
 
 <!-- Hero Section -->
 <div id="region-hero">
