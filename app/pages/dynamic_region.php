@@ -1,16 +1,13 @@
-<?php require page('includes/header');?>
-
 <?php
 if(isset($_GET['region_id'])) {
     $id = $_GET['region_id'];
     $query = "select * from regions where region_id = :region_id limit 1";
     $row = db_query_one($query,['region_id'=>$id]);
-    $region = $row['region'];
-    $region_name = $row['region_name'];
+    $region = $row['region_name'];
 }
 ?>
 
-<meta name="description" content="Indoor golf facilities and simulators near me in <?=esc($row['region_name'])?>">
+<?php require page('includes/header2');?>
 
 <!-- Hero Section -->
 <div id="region-hero">

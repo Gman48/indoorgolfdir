@@ -16,7 +16,7 @@
 </div>
 
 <div class="container">
-    <p class="state-summary">With over 50 indoor golf facilities in Alberta you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Alberta facilities below.</p>
+    <h3 class="state-summary">With over 50 indoor golf facilities in Alberta you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured Alberta facilities below.</h3>
 </div>
 
 <!-- Listings Section -->
