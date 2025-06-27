@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="hLOq68Dg_nhUW3a6wA6DyrNJ9bpDQO99AZXS841uu9Q" />
     
-    <title>Indoor golf simulator near me - <?=ucfirst($URL[0])?></title>
+    <title>Indoor golf simulator facilities - <?=ucfirst($URL[0])?></title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">
 
     <meta name="description" content="Find an indoor golf simulator in a city near you. Detailed listing of indoor golf facilities in all 50 states and Canadian provinces.  New listings added everyday.">
