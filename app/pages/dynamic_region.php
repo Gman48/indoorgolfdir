@@ -10,10 +10,10 @@ if(isset($_GET['region_id'])) {
 
 <?php require page('includes/header2');?>
 
-<?php
+<!-- <?php
     show($region);
     show($region_pagename);
-?>
+?> -->
 
 <!-- Hero Section -->
 <div id="region-hero">
