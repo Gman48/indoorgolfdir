@@ -1,5 +1,3 @@
-<?php require page('includes/header2');?>
-
 <?php
 if(isset($_GET['region_id'])) {
     $id = $_GET['region_id'];
@@ -7,8 +5,14 @@ if(isset($_GET['region_id'])) {
     $row = db_query_one($query,['region_id'=>$id]);
     $region = $row['region'];
     $region_pagename = $row['region_name'];
-    show($region);
 }
+?>
+
+<?php require page('includes/header2');?>
+
+<?php
+    show($region);
+    show($region_pagename);
 ?>
 
 <!-- Hero Section -->
