@@ -7,6 +7,7 @@ if(isset($_GET['region_id'])) {
     $row = db_query_one($query,['region_id'=>$id]);
     $region = $row['region'];
     $region_pagename = $row['region_name'];
+    show($region);
 }
 ?>
 
