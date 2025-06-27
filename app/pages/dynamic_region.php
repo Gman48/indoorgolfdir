@@ -3,7 +3,8 @@ if(isset($_GET['region_id'])) {
     $id = $_GET['region_id'];
     $query = "select * from regions where region_id = :region_id limit 1";
     $row = db_query_one($query,['region_id'=>$id]);
-    $region = $row['region_name'];
+    $region = $row['region'];
+    $region_pagename = $row['region_name'];
 }
 ?>
 
