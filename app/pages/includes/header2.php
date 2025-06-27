@@ -9,7 +9,7 @@
     <title>Indoor golf simulators near me - <?=ucfirst($region)?></title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">
 
-    <meta name="description" content="Find an indoor golf simulator in a city near you. Detailed listing of indoor golf facilities in all 50 states and Canadian provinces.  New listings added everyday.">
+    <meta name="description" content="Find an indoor golf simulator in <?=esc($region)?>. Our directory has details of all indoor golf facilities in <?=esc($region)?> including name, address, facility amenities and number of simulators. New listings added everyday.">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
