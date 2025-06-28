@@ -111,6 +111,10 @@ hr {
     /* border: 5px solid rgb(224, 39, 193); */
     text-wrap: balance;
 }
+.text-container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .logo-sm {
     width: 12rem;
@@ -297,6 +301,7 @@ a {
     color: var(--color-page-bg);
     text-align: center;
     font-weight: 500;
+    line-height: 1.5em;
 }
 .sub-text-blk {
     color: black;
@@ -313,8 +318,14 @@ a {
 }
 /* ===== Home Page ===== */
 .intro {
-    font-size: clamp(2.0rem, 3vw, 2.75rem);
+    font-size: clamp(2.0rem, 3vw, 2.6rem);
     padding-top: 1.5em;
+    padding-bottom: .25em;
+    /* line-height: 2rem; */
+    text-align: justify;
+}
+.intro2 {
+    font-size: clamp(2.0rem, 3vw, 2.6rem);
     padding-bottom: .5em;
     /* line-height: 2rem; */
     text-align: justify;

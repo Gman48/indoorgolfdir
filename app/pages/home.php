@@ -2,8 +2,10 @@
 <?php require page('includes/hero');?>
 
 <section class="container">
-<div>
-	<p class="intro">The popularity of indoor golf has exploded in recent years.  Indoor golf facilities provide a fun, convenient place for golfers to practice and play the game of golf regardless of weather conditions. These facilities vary in size and features, catering to both casual and professional players. At The Indoor Golf Directory, we aim to make it easy for you to find a facility in your area or where you may be traveling to.  We highlight the facilities amenities and provide links to all active facility websites.</p>
+<div class="text-container">
+	<p class="intro">The popularity of playing golf on indoor golf simulators has exploded in recent years.  Indoor golf facilities provide a fun, convenient place for golfers to practice and play the game of golf anytime, regardless of weather conditions. </p>
+	<p class="intro2"> At The Indoor Golf Directory, we make it easy for you to find a facility in your area.  Each listing details the facility's amenities, location, photos and a link to it's website.</p>
+	<p class="intro2">Start your search by selecting your province or state from the dropdown menu below or use our quick search.</p>
 </div>
 
 <h3 id="country" class="headline-text">What Country are you looking in?</h3>
