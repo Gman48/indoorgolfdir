@@ -8,7 +8,7 @@
 	<p class="intro2">Start your search by selecting your province or state from the dropdown menu below or use our quick search.</p>
 </div>
 
-<h3 id="country" class="headline-text">What Country are you looking in?</h3>
+<h4 id="country" class="headline-text">What Country are you looking in?</h4>
 	<div class="country-grid" data-aos="zoom-out" aos-duration="2500">
 		<div class="canada">
 			<h2 class="can">Canada</h2>

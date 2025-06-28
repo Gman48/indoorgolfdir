@@ -356,10 +356,10 @@ a {
     font-size: clamp(3.5rem, 5vw, 5rem);
 }
 .country-grid {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 3rem;
+    margin-bottom: 1.2em;
     margin-top: 1rem;
     font-size: clamp(3.5rem, 5vw, 5rem);
 }
