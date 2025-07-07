@@ -64,9 +64,15 @@
 
         <div class="listings-grid-col2">
             <div class="right-sidebar">
-                <div class="ad-grid-item">Add space</div>
-                <div class="ad-grid-item">Second Add space</div>
-                <div class="ad-grid-item">Third Add space</div>
+                <div class="amzn-grid-item">
+                    <a href="https://amzn.to/40CxwRX">Swing training mat</a>
+                </div>
+                <div class="ad-grid-item">
+                    Second Add space
+                </div>
+                <div class="ad-grid-item">
+                    Third Add space
+                </div>
             </div>
         </div>
     </div>

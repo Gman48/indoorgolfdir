@@ -5,6 +5,7 @@
     <link rel="shortcut icon" type="x-icon" href="<?=ROOT?>/assets/images/IGDlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="hLOq68Dg_nhUW3a6wA6DyrNJ9bpDQO99AZXS841uu9Q" />
+    <meta name='impact-site-verification' value='b20bc553-fa09-46fa-ac05-e1b06209b269'>
     
     <title>Indoor golf simulator facilities - <?=ucfirst($URL[0])?></title>
     <link rel="stylesheet" type="text/css" href="<?=ROOT?>/assets/css/styles.css?<?= time();?>">

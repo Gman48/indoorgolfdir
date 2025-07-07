@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-.right-sidebar {
-    display: none;
-}
+
 /* === GLOBAL === */
 :root {
     --text-blk: black; 
@@ -466,6 +464,9 @@ select#usStates {
     text-decoration: underline;
     color: blue;
 }
+
+
+
 @media(max-width:500px) {
 .state-summary {
     padding: .5em;
@@ -529,6 +530,15 @@ select#usStates {
 .listings-grid-col2 {
     /* border: 2px dashed blue; */
 }
+
+.right-sidebar {
+    display: none;
+}
+.amzn-grid-item a {
+    font-size: 2em;
+    color: blue;
+}
+
 .listings-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
