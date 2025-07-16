@@ -62,7 +62,7 @@
         </div>
 
         <div class="listings-grid-col2">
-            <div class="right-sidebar">
+            <div class="state-right-sidebar">
                 <div class="ad-grid-item">Add space</div>
                 <div class="ad-grid-item">Second Add space</div>
                 <div class="ad-grid-item">Third Add space</div>
