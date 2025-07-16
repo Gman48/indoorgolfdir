@@ -63,8 +63,8 @@
         </div>
 
         <div class="listings-grid-col2">
-            <div class="right-sidebar">
-                <div class="amzn-grid-item">
+            <div class="state-right-sidebar">
+                <!-- <div class="amzn-grid-item">
                     <a href="https://amzn.to/40CxwRX">Swing training mat</a>
                 </div>
                 <div class="ad-grid-item">
@@ -72,7 +72,7 @@
                 </div>
                 <div class="ad-grid-item">
                     Third Add space
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
