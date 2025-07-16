@@ -49,10 +49,10 @@
                     <a href="<?=ROOT?>/home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=ROOT?>/#country" class="nav-link">Canada</a>
+                    <a href="<?=ROOT?>/canada" class="nav-link">Canada</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=ROOT?>/#country" class="nav-link">USA</a>
+                    <a href="<?=ROOT?>/unitedstates" class="nav-link">USA</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a href="<?=ROOT?>/blog" class="nav-link">Blog</a>

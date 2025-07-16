@@ -4,21 +4,31 @@
 <div id="hero-bg" class="hero-bg-state">
     <h1 class="headline-state">Indoor Golf Directory</h1>
     <h1 class="headline">Quebec</h1>
-    <h3 class="sub-text">What region of Quebec are you looking in?</h3>
+
+<!-- Temporary text while state directory is being compiled -->
+<h3 class="sub-text">We are currently compiling the directory for Quebec. </h3>
+<h3 class="sub-text">Please check back soon as the listing of indoor golf facilities and simulators in Quebec is nearly complete.</h3>
+
+<div class="region-btns">
+        <a href="<?=ROOT?>/" class="region-btn">Back to Home Page</a>
+        <a href="<?=ROOT?>/canada" class="prov-btn">Back to Canada Page</a>
+</div>
+
+    <!-- <h3 class="sub-text">What region of Quebec are you looking in?</h3>
 
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=27" class="region-btn">Greater Montreal</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=28" class="region-btn">Quebec City Region</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=29" class="region-btn">Northern Quebec</a>
-    </div>
+    </div> -->
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <p class="state-summary">With over 75 indoor golf facilities in Quebec you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
-</div>
+</div> -->
 
 <!-- Listings Section -->
-<section class="container">
+<!-- <section class="container">
     <div class="listings-grid">
         <div class="listings-grid-col1">
         
@@ -39,7 +49,6 @@
                     <div class="facility-address">
                         <?=esc($row['facility_street'])?>, <?=esc($row['facility_city'])?>
                     </div>
-                    <!-- <a class="weblink" href="<?=$row['website_link']?>"><?=esc($row['website_short'])?></a> -->
                     <div class="facility-amenities"> 
                         <?php if($row['lessons']) {echo('lessons, ');}?>
                         <?php if($row['bar']) {echo('licensed lounge, ');}?>
@@ -65,7 +74,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<?php require page('includes/update');?>
+<!-- <?php require page('includes/update');?> -->
 <?php require page('includes/footer');?>

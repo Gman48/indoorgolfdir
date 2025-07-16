@@ -393,6 +393,97 @@ select#usStates {
 }
 
 
+/* ===== Country Pages ===== */
+#country-hero img {
+    /* min-height: calc(50vh - 60px - 60px); */
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.prov-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: .2em;
+    flex-wrap: wrap;
+}
+.prov-btn {
+    display: inline-block;
+    margin: 2em auto;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 1em 3em;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: red;
+    color: var(--text-white);
+    transition: background 0.5s;
+    font-size: clamp(1.25rem, 2vw, 2.5rem);
+}
+.prov-btn:hover {
+    background: rgb(248, 77, 77);
+    /* color: var(--text-blk); */
+}
+.prov-coming-btn {
+    display: inline-block;
+    margin: 2em auto;
+    width: fit-content;
+    border: 1px solid grey;
+    padding: 1em 3em;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(209, 207, 207);
+    color: var(--text-blk);
+    transition: background 0.5s;
+    font-size: clamp(1.25rem, 2vw, 2.5rem);
+    overflow: hidden;
+    cursor: not-allowed;
+}
+.state-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: .1em;
+    flex-wrap: wrap;
+}
+.state-btn {
+    display: inline-block;
+    margin: .5em auto;
+    width: fit-content;
+    border: 1px solid blue;
+    padding: 1em 3em;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: blue;
+    color: var(--text-white);
+    transition: background 0.5s;
+    font-size: clamp(.9rem, 2vw, 2rem);
+}
+.state-btn:hover {
+    background: rgb(78, 78, 250);
+    /* color: var(--text-blk); */
+}
+.state-coming-btn {
+    display: inline-block;
+    margin: .5em auto;
+    width: fit-content;
+    border: 1px solid grey;
+    padding: 1em 3em;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(209, 207, 207);
+    color: var(--text-blk);
+    transition: background 0.5s;
+    font-size: clamp(.9rem, 2vw, 2rem);
+    cursor: not-allowed;
+}
+.state-back-btn {
+    background-color: blue;
+    border: 1px solid blue;
+}
+.state-back-btn:hover {
+    background: rgb(78, 78, 250);
+    color: var(--text-blk);
+}
+
 /* ===== State Pages ===== */
 #hero-bg.hero-bg-state {
     min-height: calc(100vh - 60px - 60px);
@@ -434,7 +525,6 @@ select#usStates {
 .region-btn:hover {
     background: var(--color-lgt-green);
     color: var(--text-blk);
-
 }
 /* .state-instructions {
     margin: 1rem auto;

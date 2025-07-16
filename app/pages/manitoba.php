@@ -2,30 +2,39 @@
 
 <!-- Hero Section -->
 <div id="hero-bg" class="hero-bg-state">
-    <h1 class="headline-state">Indoor Golf Facilities</h1>
-    <h1 class="headline">New Jersey</h1>
-    <h3 class="sub-text">What region of New Jersey are you looking in?</h3>
+    <h1 class="headline-state">Indoor Golf Directory</h1>
+    <h1 class="headline">Manitoba</h1>
+
+<!-- Temporary text while state directory is being compiled -->
+<h3 class="sub-text">We are currently compiling the directory for Manitoba. </h3>
+<h3 class="sub-text">Please check back soon as the listing of indoor golf facilities and simulators in Manitoba is nearly complete.</h3>
+
+<div class="region-btns">
+        <a href="<?=ROOT?>/" class="region-btn">Back to Home Page</a>
+        <a href="<?=ROOT?>/canada" class="prov-btn">Back to Canada Page</a>
+</div>
+
+    <!-- <h3 class="sub-text">What region of Quebec are you looking in?</h3>
 
     <div class="region-btns">
-        <a href="<?=ROOT?>/dynamic_region?region_id=52" class="region-btn">North Jersey</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=53" class="region-btn">Central Jersey</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=54" class="region-btn">South Jersey</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=55" class="region-btn">Jersey Shore</a>
-    </div>
+        <a href="<?=ROOT?>/dynamic_region?region_id=27" class="region-btn">Greater Montreal</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=28" class="region-btn">Quebec City Region</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=29" class="region-btn">Northern Quebec</a>
+    </div> -->
 </div>
 
-<div class="container">
-    <p class="state-summary">New Jersey is home to almost 60 indoor golf facilities with golf simulators that let you enjoy the game year round. From North to South Jersey and the Jersey Shore, you are sure to find a golf simulator near you.  Search by clicking on a region above or check out our featured New Jersey facilities below.</p>
-</div>
+<!-- <div class="container">
+    <p class="state-summary">With over 75 indoor golf facilities in Quebec you are sure to find one that meets your needs.  Search by clicking on a region above or check out our featured facilities below.</p>
+</div> -->
 
 <!-- Listings Section -->
-<section class="container">
+<!-- <section class="container">
     <div class="listings-grid">
         <div class="listings-grid-col1">
         
             <?php 
                 $query = "select * from allfacilities where state = :state and featured = 1";
-                $rows = db_query($query, ['state'=>'nj']);
+                $rows = db_query($query, ['state'=>'qc']);
             ?>
 
             <?php if(!empty($rows)):?>
@@ -35,12 +44,11 @@
                 <img class="listings-img" src="<?=ROOT?>/<?=$row['facility_img']?>" alt="facility image">
                 <div class="listings-summary">
                     <div class="name-featured">
-                        <div><a class="facilitylink facility-name" href="<?=ROOT?>/facility_details?facility_id=<?=$row['facility_id']?>"><?=esc($row['facility_name'])?></a></div>
+                        <a class="facilitylink facility-name" href="<?=ROOT?>/facility_details?facility_id=<?=$row['facility_id']?>"><?=esc($row['facility_name'])?></a>
                     </div>
                     <div class="facility-address">
                         <?=esc($row['facility_street'])?>, <?=esc($row['facility_city'])?>
                     </div>
-                    <!-- <a class="weblink" href="<?=$row['website_link']?>"><?=esc($row['website_short'])?></a> -->
                     <div class="facility-amenities"> 
                         <?php if($row['lessons']) {echo('lessons, ');}?>
                         <?php if($row['bar']) {echo('licensed lounge, ');}?>
@@ -66,6 +74,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
+<!-- <?php require page('includes/update');?> -->
 <?php require page('includes/footer');?>
