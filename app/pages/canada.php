@@ -20,6 +20,14 @@
         <!-- <a href="<?=ROOT?>/territories" class="prov-coming-btn">The Territories</a> -->
     </div>
 
+<!-- ad space -->
+    <div class="wide-ad-item">
+        <a rel="sponsored" href="https://globalgolf.sjv.io/c/6375208/2017685/15292" target="_blank" id="2017685">
+            <img src="//a.impactradius-go.com/display-ad/15292-2017685" alt=""/>
+        </a>
+        <img height="0" width="0" src="https://imp.pxf.io/i/6375208/2017685/15292" style="position:absolute;visibility:hidden;" border="0" />
+    </div>
+
 
 
 <?php require page('includes/footer');?>

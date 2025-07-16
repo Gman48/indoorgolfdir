@@ -16,6 +16,15 @@
         <a href="<?=ROOT?>/newyork" class="state-btn">New York</a>
         
     </div>
+
+<!-- ad space -->
+    <div class="wide-ad-item">
+        <a rel="sponsored" href="https://globalgolf.pxf.io/c/6375208/1277689/15291" target="_blank" id="1277689">
+            <img src="//a.impactradius-go.com/display-ad/15291-1277689" alt=""/>
+        </a>
+            <img src="https://imp.pxf.io/i/6375208/1277689/15291" style="position:absolute;visibility:hidden;"/>
+    </div>
+
     <h2>Coming soon</h2>
     <div class="state-btns">
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Alabama</a>
