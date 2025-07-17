@@ -627,7 +627,7 @@ select#usStates {
 }
 
 .right-sidebar {
-    /* display: none; */
+    display: none;
 }
 .ad-grid-item{
     border: 2px solid black;
@@ -710,9 +710,6 @@ select#usStates {
 }
 
 /* Region listings media queries*/
-@media(max-width:500px) {
-    
-}
 
 @media(max-width:600px) {
     .listings-grid {
@@ -728,6 +725,15 @@ select#usStates {
     .listings-container  {
         grid-template-columns: 5fr 1fr;
         margin: 0;
+    }
+    .wide-ad-item img {
+    height: 9em;
+    }
+}
+
+@media(max-width:400px) {
+    .wide-ad-item img {
+        height: 6em;
     }
 }
 /* --- end Region Pages Listings --- */
