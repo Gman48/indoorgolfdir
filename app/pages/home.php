@@ -11,7 +11,7 @@
 <h4 id="country" class="headline-text">What Country are you looking in?</h4>
 	<div class="country-grid" data-aos="zoom-out" aos-duration="2500">
 		<div class="canada">
-			<h2 class="can">Canada</h2>
+			<a href="<?=ROOT?>/canada"><h2 class="can">Canada</h2></a>
 			<div class="dropdown">
 				<select name="provinces" id="provinces" onchange="window.location.href=this.value;">
 					<option value="nothing">-- Select a Province --</option>
@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="unitedstates">
-			<h2 class="usa">United States</h2>
+			<a href="<?=ROOT?>/unitedstates"><h2 class="usa">United States</h2></a>
 			<div class="dropdown">
 				<select name="usStates" id="usStates" onchange="window.location.href=this.value;">
 					<option value="">-- Select a State --</option>
