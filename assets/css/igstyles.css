@@ -1041,7 +1041,7 @@ td a {
     font-size: 1.75rem;
 }
 .search-alert {
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 2rem 0;
     color: red;
 }
@@ -1078,6 +1078,12 @@ td a {
     display: block;
 }
 /* end admin navbar */
+
+.alert {
+    font-size: 5rem;
+    padding: 2rem 0;
+    color: green;
+}
 
 /* === Admin Pages === */
 .table-container {
