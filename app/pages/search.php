@@ -20,7 +20,7 @@
 					<th>City</th>
 					<th>State</th>
 					<th>Region</th>
-					<th>Website Link</th>
+					<!-- <th>Website Link</th> -->
 				</tr>
 
 				<?php if(!empty($rows)):?>
@@ -32,9 +32,9 @@
 							<td><?=$row['facility_city']?></td>
 							<td><?=$row['state']?></td>
 							<td><?=$row['region']?></td>
-							<td>
-								<a target="_blank" href="<?=$row['website_link']?>"><?=esc($row['website_link'])?></a>
-							</td>
+							<!-- <td>
+								<a target="_blank" href="<?=$row['website_short']?>"><?=esc($row['website_short'])?></a>
+							</td> -->
 						</tr>
 					<?php endforeach;?>
 				

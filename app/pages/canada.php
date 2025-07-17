@@ -22,7 +22,7 @@
 
 <!-- ad space -->
     <div class="wide-ad-item">
-        <span>Sponsored Ad</span>
+        <span>Advertisement</span>
         <a rel="sponsored" href="https://globalgolf.sjv.io/c/6375208/2017685/15292" target="_blank" id="2017685">
             <img src="//a.impactradius-go.com/display-ad/15292-2017685" alt="global golf ad"/>
         </a>

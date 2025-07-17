@@ -78,7 +78,7 @@
 
     <!-- ad space -->
     <div class="wide-ad-item">
-        <span>Sponsored Ad</span>
+        <span>Advertisement</span>
         <a rel="sponsored" href="https://globalgolf.pxf.io/c/6375208/1277689/15291" target="_blank" id="1277689">
             <img src="//a.impactradius-go.com/display-ad/15291-1277689" alt="global golf ad"/>
         </a>
