@@ -6,18 +6,19 @@
     <h1 class="headline">Manitoba</h1>
 
 <!-- Temporary text while state directory is being compiled -->
-<h3 class="sub-text">We are currently compiling the directory for Manitoba. </h3>
-<h3 class="sub-text">Please check back soon as the listing of indoor golf facilities and simulators in Manitoba is nearly complete.</h3>
-
-<div class="region-btns">
-        <a href="<?=ROOT?>/" class="region-btn">Back to Home Page</a>
-        <a href="<?=ROOT?>/canada" class="prov-btn">Back to Canada Page</a>
-</div>
-
-    <!-- <h3 class="sub-text">What region of Quebec are you looking in?</h3>
+    <h3 class="sub-text">We are currently compiling the directory for Manitoba. </h3>
+    <h3 class="sub-text">Please check back soon as the listing of indoor golf facilities and simulators in Manitoba is nearly complete.</h3>
 
     <div class="region-btns">
-        <a href="<?=ROOT?>/dynamic_region?region_id=27" class="region-btn">Greater Montreal</a>
+            <a href="<?=ROOT?>/" class="region-btn">Back to Home Page</a>
+            <a href="<?=ROOT?>/canada" class="prov-btn">Back to Canada Page</a>
+    </div>
+<!-- end temporary section -->
+
+    <!-- <h3 class="sub-text">What region of Manitoba are you looking in?</h3>
+
+    <div class="region-btns">
+        <a href="<?=ROOT?>/dynamic_region?region_id=27" class="region-btn">Greater Winnipeg</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=28" class="region-btn">Quebec City Region</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=29" class="region-btn">Northern Quebec</a>
     </div> -->

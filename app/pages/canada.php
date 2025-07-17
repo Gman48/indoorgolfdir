@@ -22,10 +22,12 @@
 
 <!-- ad space -->
     <div class="wide-ad-item">
+        <span>Sponsored Ad</span>
         <a rel="sponsored" href="https://globalgolf.sjv.io/c/6375208/2017685/15292" target="_blank" id="2017685">
             <img src="//a.impactradius-go.com/display-ad/15292-2017685" alt="global golf ad"/>
         </a>
-        <img height="0" width="0" src="https://imp.pxf.io/i/6375208/2017685/15292" style="position:absolute;visibility:hidden;"/>
+        <img src="https://imp.pxf.io/i/6375208/2017685/15292" style="position:absolute;visibility:hidden;"/>
+        
     </div>
 </div>
 

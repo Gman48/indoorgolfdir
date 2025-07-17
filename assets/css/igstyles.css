@@ -640,9 +640,13 @@ select#usStates {
     padding: 5rem 10rem 3rem 10rem;
     width: 100%;
 }
+.wide-ad-item span {
+    padding-bottom: -20rem;
+}
 .wide-ad-item img {
     border: 3px solid black;
     width: 100%;
+    max-width: 900px;
     height: 18em;
     margin: 3em auto;
 }

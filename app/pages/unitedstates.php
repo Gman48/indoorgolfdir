@@ -19,6 +19,7 @@
 
 <!-- ad space -->
     <div class="wide-ad-item">
+        <span>Sponsored Ad</span>
         <a rel="sponsored" href="https://globalgolf.pxf.io/c/6375208/1277689/15291" target="_blank" id="1277689">
             <img src="//a.impactradius-go.com/display-ad/15291-1277689" alt="global golf ad"/>
         </a>
@@ -73,6 +74,15 @@
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">West Virginia</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Wisconsin</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Wyoming</a>
+    </div>
+
+    <!-- ad space -->
+    <div class="wide-ad-item">
+        <span>Sponsored Ad</span>
+        <a rel="sponsored" href="https://globalgolf.pxf.io/c/6375208/1277689/15291" target="_blank" id="1277689">
+            <img src="//a.impactradius-go.com/display-ad/15291-1277689" alt="global golf ad"/>
+        </a>
+            <img src="https://imp.pxf.io/i/6375208/1277689/15291" style="position:absolute;visibility:hidden;"/>
     </div>
 </div>
 
