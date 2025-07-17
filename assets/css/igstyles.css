@@ -1041,7 +1041,7 @@ td a {
     font-size: 1.75rem;
 }
 .search-alert {
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 2rem 0;
     color: red;
 }
@@ -1080,9 +1080,10 @@ td a {
 /* end admin navbar */
 
 .alert {
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 2rem 0;
-    color: green;
+    color: white;
+    background-color: green;
 }
 
 /* === Admin Pages === */
