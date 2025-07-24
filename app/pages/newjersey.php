@@ -7,6 +7,7 @@
     <h3 class="sub-text">What region of New Jersey are you looking in?</h3>
 
     <div class="region-btns">
+        <a href="<?=ROOT?>/dynamic_region?region_id=67" class="region-btn">Newark</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=52" class="region-btn">North Jersey</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=53" class="region-btn">Central Jersey</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=54" class="region-btn">South Jersey</a>
