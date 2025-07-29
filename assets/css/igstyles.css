@@ -671,7 +671,7 @@ select#usStates {
     height: 12rem;
     padding: .5rem;
     border-radius: 20px;
-    background-color: rgb(181, 194, 181);
+    background-color: rgb(228, 231, 228);
 }
 .list-break {
     border: 1.5px solid var(--color-dark-orange);
