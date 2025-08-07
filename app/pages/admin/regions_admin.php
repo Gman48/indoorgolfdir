@@ -102,8 +102,8 @@
 			{
 				$errors['region_name'] = "Region full name is required";
 			}else
-			if(!preg_match("/^[a-zA-Z0-9 \.\&\-\']+$/", $_POST['region_name'])){
-				$errors['region_name'] = "Region full name can only have letters & spaces";
+			if(!preg_match("/^[a-zA-Z0-9 \.\&\-\(\)\']+$/", $_POST['region_name'])){
+				$errors['region_name'] = "Region full name can only have letters, spaces & certain symbols";
 			}
 
 			if(empty($_POST['state']))
