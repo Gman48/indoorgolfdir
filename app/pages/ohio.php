@@ -8,7 +8,7 @@
 
     <div class="region-btns">
         <a href="<?=ROOT?>/dynamic_region?region_id=70" class="region-btn">Cleveland</a>
-        <a href="<?=ROOT?>/dynamic_region?region_id=68" class="region-btn">Cincinnati</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=68" class="region-btn">Cincinnati (incl. Dayton)</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=69" class="region-btn">Columbus</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=71" class="region-btn">Toledo</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=72" class="region-btn">Other (rural OH)</a>
