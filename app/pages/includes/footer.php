@@ -24,10 +24,10 @@
                     	<a href="<?=ROOT?>/home" class="ft-nav-link">Home</a>
                 	</li>
 					<li class="ft-nav-item">
-						<a href="<?=ROOT?>/#country" class="ft-nav-link">Canada</a>
+						<a href="<?=ROOT?>/canada" class="ft-nav-link">Canada</a>
 					</li>
 					<li class="ft-nav-item">
-						<a href="<?=ROOT?>/#country" class="ft-nav-link">United States</a>
+						<a href="<?=ROOT?>/unitedstates" class="ft-nav-link">United States</a>
 					</li>
 					<!-- <li class="ft-nav-item">
 						<a href="#" class="ft-nav-link">Blog</a>
