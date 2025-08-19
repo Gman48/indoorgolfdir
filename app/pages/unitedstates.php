@@ -12,7 +12,7 @@
     <div class="state-btns">
         <a href="<?=ROOT?>/connecticut" class="state-btn">Connecticut</a>
         <a href="<?=ROOT?>/massachusetts" class="state-btn">Massachusetts</a>
-        <a href="<?=ROOT?>/michigan" class="state-coming-btn">Michigan</a>
+        <a href="<?=ROOT?>/michigan" class="state-btn">Michigan</a>
         <a href="<?=ROOT?>/newjersey" class="state-btn">New Jersey</a>
         <a href="<?=ROOT?>/newyork" class="state-btn">New York</a>
         <a href="<?=ROOT?>/ohio" class="state-btn">Ohio</a>
