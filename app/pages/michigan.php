@@ -7,7 +7,8 @@
     <h3 class="sub-text">What region of Michigan are you looking in?</h3>
     
     <div class="region-btns">
-        <a href="<?=ROOT?>/dynamic_region?region_id=73" class="region-btn">Detroit</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=73" class="region-btn">Detroit-Metro</a>
+        <a href="<?=ROOT?>/dynamic_region?region_id=76" class="region-btn">Detroit-Surrounding Area</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=75" class="region-btn">Grand Rapids/Lansing</a>
         <a href="<?=ROOT?>/dynamic_region?region_id=74" class="region-btn">Rural Michigan</a>
     </div>
