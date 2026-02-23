@@ -16,7 +16,7 @@
         <a href="<?=ROOT?>/newjersey" class="state-btn">New Jersey</a>
         <a href="<?=ROOT?>/newyork" class="state-btn">New York</a>
         <a href="<?=ROOT?>/ohio" class="state-btn">Ohio</a>
-        <a href="<?=ROOT?>/texas" class="state-coming-btn">Texas</a>
+        <a href="<?=ROOT?>/texas" class="state-btn">Texas</a>
     </div>
 
 <!-- ad space -->
