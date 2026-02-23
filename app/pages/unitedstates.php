@@ -16,7 +16,7 @@
         <a href="<?=ROOT?>/newjersey" class="state-btn">New Jersey</a>
         <a href="<?=ROOT?>/newyork" class="state-btn">New York</a>
         <a href="<?=ROOT?>/ohio" class="state-btn">Ohio</a>
-        
+        <a href="<?=ROOT?>/texas" class="state-coming-btn">Texas</a>
     </div>
 
 <!-- ad space -->
@@ -68,7 +68,7 @@
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">South Carolina</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">South Dakota</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Tennessee</a>
-        <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Texas</a>
+        
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Utah</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Vermont</a>
         <a href="<?=ROOT?>/comingsoon" class="state-coming-btn">Virginia</a>
